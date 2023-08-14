@@ -27,9 +27,6 @@
 		91DD8D602A855B59006A06BC /* MUCAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D592A855B59006A06BC /* MUCAirportData.json */; };
 		91DD8D612A855B59006A06BC /* MUCAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D592A855B59006A06BC /* MUCAirportData.json */; };
 		91DD8D622A855B59006A06BC /* MUCAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D592A855B59006A06BC /* MUCAirportData.json */; };
-		91DD8D642A855D7A006A06BC /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D632A855D7A006A06BC /* Test.json */; };
-		91DD8D652A855D7A006A06BC /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D632A855D7A006A06BC /* Test.json */; };
-		91DD8D662A855D7A006A06BC /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D632A855D7A006A06BC /* Test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +64,6 @@
 		91DD8D542A8554F0006A06BC /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
 		91DD8D582A855B59006A06BC /* LAXAirportData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LAXAirportData.json; path = APIData/LAXAirportData.json; sourceTree = SOURCE_ROOT; };
 		91DD8D592A855B59006A06BC /* MUCAirportData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MUCAirportData.json; path = APIData/MUCAirportData.json; sourceTree = SOURCE_ROOT; };
-		91DD8D632A855D7A006A06BC /* Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Test.json; path = APIData/Test.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,7 +164,6 @@
 			isa = PBXGroup;
 			children = (
 				9126EA292A8A31AC0093C2A2 /* JFKAirportData.json */,
-				91DD8D632A855D7A006A06BC /* Test.json */,
 				91DD8D582A855B59006A06BC /* LAXAirportData.json */,
 				91DD8D592A855B59006A06BC /* MUCAirportData.json */,
 			);
@@ -281,7 +276,6 @@
 			files = (
 				91DD8D602A855B59006A06BC /* MUCAirportData.json in Resources */,
 				911A86522A84F40300AE051C /* Preview Assets.xcassets in Resources */,
-				91DD8D642A855D7A006A06BC /* Test.json in Resources */,
 				9126EA2A2A8A31AC0093C2A2 /* JFKAirportData.json in Resources */,
 				911A864F2A84F40300AE051C /* Assets.xcassets in Resources */,
 				91DD8D5D2A855B59006A06BC /* LAXAirportData.json in Resources */,
@@ -292,7 +286,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DD8D652A855D7A006A06BC /* Test.json in Resources */,
 				9126EA2B2A8A31AC0093C2A2 /* JFKAirportData.json in Resources */,
 				91DD8D612A855B59006A06BC /* MUCAirportData.json in Resources */,
 				91DD8D5E2A855B59006A06BC /* LAXAirportData.json in Resources */,
@@ -303,7 +296,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91DD8D662A855D7A006A06BC /* Test.json in Resources */,
 				9126EA2C2A8A31AC0093C2A2 /* JFKAirportData.json in Resources */,
 				91DD8D622A855B59006A06BC /* MUCAirportData.json in Resources */,
 				91DD8D5F2A855B59006A06BC /* LAXAirportData.json in Resources */,
