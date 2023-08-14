@@ -16,6 +16,20 @@
 		911A86612A84F40300AE051C /* AirportDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A86602A84F40300AE051C /* AirportDataTests.swift */; };
 		911A866B2A84F40300AE051C /* AirportDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A866A2A84F40300AE051C /* AirportDataUITests.swift */; };
 		911A866D2A84F40300AE051C /* AirportDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911A866C2A84F40300AE051C /* AirportDataUITestsLaunchTests.swift */; };
+		9126EA2A2A8A31AC0093C2A2 /* JFKAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9126EA292A8A31AC0093C2A2 /* JFKAirportData.json */; };
+		9126EA2B2A8A31AC0093C2A2 /* JFKAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9126EA292A8A31AC0093C2A2 /* JFKAirportData.json */; };
+		9126EA2C2A8A31AC0093C2A2 /* JFKAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9126EA292A8A31AC0093C2A2 /* JFKAirportData.json */; };
+		91DD8D4F2A850FB0006A06BC /* AirportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DD8D4E2A850FB0006A06BC /* AirportData.swift */; };
+		91DD8D552A8554F0006A06BC /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DD8D542A8554F0006A06BC /* FlightData.swift */; };
+		91DD8D5D2A855B59006A06BC /* LAXAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D582A855B59006A06BC /* LAXAirportData.json */; };
+		91DD8D5E2A855B59006A06BC /* LAXAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D582A855B59006A06BC /* LAXAirportData.json */; };
+		91DD8D5F2A855B59006A06BC /* LAXAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D582A855B59006A06BC /* LAXAirportData.json */; };
+		91DD8D602A855B59006A06BC /* MUCAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D592A855B59006A06BC /* MUCAirportData.json */; };
+		91DD8D612A855B59006A06BC /* MUCAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D592A855B59006A06BC /* MUCAirportData.json */; };
+		91DD8D622A855B59006A06BC /* MUCAirportData.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D592A855B59006A06BC /* MUCAirportData.json */; };
+		91DD8D642A855D7A006A06BC /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D632A855D7A006A06BC /* Test.json */; };
+		91DD8D652A855D7A006A06BC /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D632A855D7A006A06BC /* Test.json */; };
+		91DD8D662A855D7A006A06BC /* Test.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D632A855D7A006A06BC /* Test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +62,12 @@
 		911A86662A84F40300AE051C /* AirportDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirportDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911A866A2A84F40300AE051C /* AirportDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDataUITests.swift; sourceTree = "<group>"; };
 		911A866C2A84F40300AE051C /* AirportDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9126EA292A8A31AC0093C2A2 /* JFKAirportData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JFKAirportData.json; path = APIData/JFKAirportData.json; sourceTree = SOURCE_ROOT; };
+		91DD8D4E2A850FB0006A06BC /* AirportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportData.swift; sourceTree = "<group>"; };
+		91DD8D542A8554F0006A06BC /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
+		91DD8D582A855B59006A06BC /* LAXAirportData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LAXAirportData.json; path = APIData/LAXAirportData.json; sourceTree = SOURCE_ROOT; };
+		91DD8D592A855B59006A06BC /* MUCAirportData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = MUCAirportData.json; path = APIData/MUCAirportData.json; sourceTree = SOURCE_ROOT; };
+		91DD8D632A855D7A006A06BC /* Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Test.json; path = APIData/Test.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,7 @@
 		911A863E2A84F40200AE051C = {
 			isa = PBXGroup;
 			children = (
+				91DD8D562A855B21006A06BC /* Resources */,
 				911A86492A84F40200AE051C /* AirportData */,
 				911A865F2A84F40300AE051C /* AirportDataTests */,
 				911A86692A84F40300AE051C /* AirportDataUITests */,
@@ -98,6 +119,7 @@
 		911A86492A84F40200AE051C /* AirportData */ = {
 			isa = PBXGroup;
 			children = (
+				91DD8D4D2A850FA3006A06BC /* Data */,
 				911A864A2A84F40200AE051C /* AirportDataApp.swift */,
 				911A864C2A84F40200AE051C /* ContentView.swift */,
 				911A864E2A84F40300AE051C /* Assets.xcassets */,
@@ -131,6 +153,26 @@
 				911A866C2A84F40300AE051C /* AirportDataUITestsLaunchTests.swift */,
 			);
 			path = AirportDataUITests;
+			sourceTree = "<group>";
+		};
+		91DD8D4D2A850FA3006A06BC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				91DD8D4E2A850FB0006A06BC /* AirportData.swift */,
+				91DD8D542A8554F0006A06BC /* FlightData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		91DD8D562A855B21006A06BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9126EA292A8A31AC0093C2A2 /* JFKAirportData.json */,
+				91DD8D632A855D7A006A06BC /* Test.json */,
+				91DD8D582A855B59006A06BC /* LAXAirportData.json */,
+				91DD8D592A855B59006A06BC /* MUCAirportData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,8 +279,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DD8D602A855B59006A06BC /* MUCAirportData.json in Resources */,
 				911A86522A84F40300AE051C /* Preview Assets.xcassets in Resources */,
+				91DD8D642A855D7A006A06BC /* Test.json in Resources */,
+				9126EA2A2A8A31AC0093C2A2 /* JFKAirportData.json in Resources */,
 				911A864F2A84F40300AE051C /* Assets.xcassets in Resources */,
+				91DD8D5D2A855B59006A06BC /* LAXAirportData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +292,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DD8D652A855D7A006A06BC /* Test.json in Resources */,
+				9126EA2B2A8A31AC0093C2A2 /* JFKAirportData.json in Resources */,
+				91DD8D612A855B59006A06BC /* MUCAirportData.json in Resources */,
+				91DD8D5E2A855B59006A06BC /* LAXAirportData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +303,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91DD8D662A855D7A006A06BC /* Test.json in Resources */,
+				9126EA2C2A8A31AC0093C2A2 /* JFKAirportData.json in Resources */,
+				91DD8D622A855B59006A06BC /* MUCAirportData.json in Resources */,
+				91DD8D5F2A855B59006A06BC /* LAXAirportData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +318,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				911A86542A84F40300AE051C /* Persistence.swift in Sources */,
+				91DD8D552A8554F0006A06BC /* FlightData.swift in Sources */,
 				911A864D2A84F40200AE051C /* ContentView.swift in Sources */,
+				91DD8D4F2A850FB0006A06BC /* AirportData.swift in Sources */,
 				911A864B2A84F40200AE051C /* AirportDataApp.swift in Sources */,
 				911A86572A84F40300AE051C /* AirportData.xcdatamodeld in Sources */,
 			);
