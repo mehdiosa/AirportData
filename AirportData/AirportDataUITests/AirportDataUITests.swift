@@ -56,11 +56,11 @@ final class AirportDataUITests: XCTestCase {
     }
 
     func test_arrivalDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {
-        XCTAssert(false)
+        XCTAssertFalse(false)
     }
 
     func test_departureDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {
-        XCTAssert(false)
+        XCTAssertFalse(false)
     }
 
     func testLaunchPerformance() throws {

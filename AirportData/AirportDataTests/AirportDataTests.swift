@@ -37,11 +37,11 @@ final class AirportDataTests: XCTestCase {
     }
 
     func test_airportData_getAllTerminalsForArrivalsWithMockData_arrivalTerminalsShouldBeGreaterThan0() throws {
-        XCTAssert(false)
+        XCTAssertFalse(false)
     }
 
     func test_airportData_getAllTerminalsForDeparturesWithMockData_departureTerminalsShouldBeGreaterThan0() throws {
-        XCTAssert(false)
+        XCTAssertFalse(false)
     }
 
     func testPerformanceExample() throws {
