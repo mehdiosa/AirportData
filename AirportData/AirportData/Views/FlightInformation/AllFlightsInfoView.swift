@@ -14,7 +14,7 @@ struct AllFlightsInfoView: View {
 
     init(airportData: AirportData = AirportData(), type: FlightDataType = .arrival) {
         self.airportData = airportData
-        self.type = .arrival
+        self.type = type
 
         if self.type == .arrival {
             self.flightData = airportData.arrivalFlightData

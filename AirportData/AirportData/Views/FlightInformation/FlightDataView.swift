@@ -29,7 +29,7 @@ struct FlightDataView: View {
 
                 Text(self.expectedTime.count > 0 ? "**Scheduled:**\n\(self.expectedTime)" : "TBA").frame(maxWidth: .infinity, alignment: .center)
 
-                Text(self.status != .noStatus ? "**Status:**\n\(Text(self.status.rawValue).foregroundColor(setStatusColor(status: self.status)))" : "TBA").frame(maxWidth: .infinity, alignment: .trailing)
+                Text(self.status != .noStatus ? "**Status:\n\(Text(self.status.rawValue).foregroundColor(setStatusColor(status: self.status)))**" : "TBA").frame(maxWidth: .infinity, alignment: .trailing)
             }
         }
     }
@@ -37,12 +37,12 @@ struct FlightDataView: View {
     // TODO: Change colors for more consistent output
     private func setStatusColor(status: FlightStatus) -> Color {
         switch status {
-        case .scheduled: return Color(red: 104/255, green: 152/255, blue: 202/255) // Light blue
-        case .active: return Color(red: 53/255, green: 113/255, blue: 170/255) // Blue
-        case .landed: return Color.blue // darker blue?
-        case .cancelled: return Color.red
-        case .incident: return Color(red: 219/255, green: 68/255, blue: 57/255) // Orange or Red
-        case .diverted: return Color.orange
+        case .scheduled: return Color.black
+        case .active: return Color(red: 0/255, green: 82/255, blue: 204/255)
+        case .landed: return Color(red: 89/255, green: 153/255, blue: 49/255)
+        case .cancelled: return Color(red: 191/255, green: 38/255, blue: 0/255)
+        case .incident: return Color(red: 255/255, green: 153/255, blue: 31/255)
+        case .diverted: return Color(red: 222/255, green: 53/255, blue: 11/255)
 
         default:
             return Color(UIColor.systemBackground)
