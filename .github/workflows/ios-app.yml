@@ -11,17 +11,8 @@ on:
       - feature/*
 
 jobs:
-  test:
-    name: Testing iOS app
-    runs-on: macOS-latest
-    steps:
-      - name: checkout repository
-        uses: actions/checkout@v3
-      - name: Testing iOS app
-        run: exec ./.github/scripts/test_app.sh
-
   build_with_signing:
-    name: Build iOS app with signing
+    name: Build and test iOS app
     runs-on: macos-latest
     steps:
       - name: checkout repository
@@ -70,3 +61,6 @@ jobs:
         run: |
           security delete-keychain $RUNNER_TEMP/app-signing.keychain-db
           rm ~/Library/MobileDevice/Provisioning\ Profiles/build_pp.mobileprovision
+
+      - name: Testing iOS app
+        run: exec ./.github/scripts/test_app.sh
