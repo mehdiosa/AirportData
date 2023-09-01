@@ -1,13 +1,18 @@
-name: "Build iOS app"
+name: 'Test and build iOS app'
 
 on:
   push:
     branches:
       - main
       - 'feature/**'
+  pull_request:
+    branches:
+      - master
+      - feature/*
 
 jobs:
   build_with_signing:
+    name: Build and test iOS app
     runs-on: macos-latest
     steps:
       - name: checkout repository
@@ -56,3 +61,6 @@ jobs:
         run: |
           security delete-keychain $RUNNER_TEMP/app-signing.keychain-db
           rm ~/Library/MobileDevice/Provisioning\ Profiles/build_pp.mobileprovision
+
+      - name: Testing iOS app
+        run: exec ./.github/scripts/test_app.sh
