@@ -29,6 +29,7 @@ struct AllFlightsInfoView: View {
         } else {
 //            TabView {
 //                ForEach(getTerminals(flightData: flightData), id: \.self) { _ in
+            
             List {
                 ForEach(self.flightData.data, id: \.self) { flight in
                     FlightDataView(
