@@ -10,10 +10,10 @@ on:
     - feature/*
 jobs:
   test:
-    name: Testing Swift Package and iOS app
+    name: Testing iOS app
     runs-on: macOS-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v1
+      - name: checkout repository
+        uses: actions/checkout@v3
       - name: Testing iOS app
         run: exec ./.github/scripts/test_app.sh
