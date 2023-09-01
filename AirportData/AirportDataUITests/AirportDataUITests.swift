@@ -42,18 +42,22 @@ final class AirportDataUITests: XCTestCase {
         XCTAssertTrue(arrivalsButton.isSelected)
     }
 
-    func test_ArrivalDataFirstElementExists_ElementShouldExist() throws {
+    func test_arrivalDataFirstElementExists_ElementShouldExist() throws {
         let firstElementInList = XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0)
         XCTAssertTrue(firstElementInList.exists)
     }
 
-    func test_DepartureDataFirstElementExists_ElementShouldExist() throws {
+    func test_departureDataFirstElementExists_ElementShouldExist() throws {
         let tabBar = XCUIApplication().tabBars["Tab Bar"]
         tabBar.buttons["Departures"].tap()
 
         let firstElementInList = XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0)
         XCTAssertTrue(firstElementInList.exists)
     }
+
+    func test_arrivalDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {}
+
+    func test_departureDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {}
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
