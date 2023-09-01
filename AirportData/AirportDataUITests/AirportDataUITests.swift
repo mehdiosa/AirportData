@@ -55,9 +55,13 @@ final class AirportDataUITests: XCTestCase {
         XCTAssertTrue(firstElementInList.exists)
     }
 
-    func test_arrivalDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {}
+    func test_arrivalDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {
+        XCTAssert(false)
+    }
 
-    func test_departureDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {}
+    func test_departureDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {
+        XCTAssert(false)
+    }
 
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
