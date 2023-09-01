@@ -20,14 +20,8 @@
 		9126EA2B2A8A31AC0093C2A2 /* JFKArrival.json in Resources */ = {isa = PBXBuildFile; fileRef = 9126EA292A8A31AC0093C2A2 /* JFKArrival.json */; };
 		9126EA2C2A8A31AC0093C2A2 /* JFKArrival.json in Resources */ = {isa = PBXBuildFile; fileRef = 9126EA292A8A31AC0093C2A2 /* JFKArrival.json */; };
 		9126EA302A8A39400093C2A2 /* FlightDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA2F2A8A39400093C2A2 /* FlightDataView.swift */; };
-		9126EA312A8A39400093C2A2 /* FlightDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA2F2A8A39400093C2A2 /* FlightDataView.swift */; };
-		9126EA322A8A39400093C2A2 /* FlightDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA2F2A8A39400093C2A2 /* FlightDataView.swift */; };
 		9126EA342A8A39590093C2A2 /* AllFlightsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA332A8A39590093C2A2 /* AllFlightsInfoView.swift */; };
-		9126EA352A8A39590093C2A2 /* AllFlightsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA332A8A39590093C2A2 /* AllFlightsInfoView.swift */; };
-		9126EA362A8A39590093C2A2 /* AllFlightsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA332A8A39590093C2A2 /* AllFlightsInfoView.swift */; };
 		9126EA382A8A39680093C2A2 /* TerminalsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA372A8A39680093C2A2 /* TerminalsInfoView.swift */; };
-		9126EA392A8A39680093C2A2 /* TerminalsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA372A8A39680093C2A2 /* TerminalsInfoView.swift */; };
-		9126EA3A2A8A39680093C2A2 /* TerminalsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA372A8A39680093C2A2 /* TerminalsInfoView.swift */; };
 		91B3B9E42A8A767C00DAAF2B /* MUCDeparture.json in Resources */ = {isa = PBXBuildFile; fileRef = 91B3B9E12A8A767C00DAAF2B /* MUCDeparture.json */; };
 		91B3B9E52A8A767C00DAAF2B /* MUCDeparture.json in Resources */ = {isa = PBXBuildFile; fileRef = 91B3B9E12A8A767C00DAAF2B /* MUCDeparture.json */; };
 		91B3B9E62A8A767C00DAAF2B /* MUCDeparture.json in Resources */ = {isa = PBXBuildFile; fileRef = 91B3B9E12A8A767C00DAAF2B /* MUCDeparture.json */; };
@@ -396,9 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9126EA392A8A39680093C2A2 /* TerminalsInfoView.swift in Sources */,
-				9126EA312A8A39400093C2A2 /* FlightDataView.swift in Sources */,
-				9126EA352A8A39590093C2A2 /* AllFlightsInfoView.swift in Sources */,
 				911A86612A84F40300AE051C /* AirportDataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,11 +398,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9126EA362A8A39590093C2A2 /* AllFlightsInfoView.swift in Sources */,
 				911A866D2A84F40300AE051C /* AirportDataUITestsLaunchTests.swift in Sources */,
 				911A866B2A84F40300AE051C /* AirportDataUITests.swift in Sources */,
-				9126EA3A2A8A39680093C2A2 /* TerminalsInfoView.swift in Sources */,
-				9126EA322A8A39400093C2A2 /* FlightDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,7 +602,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G347N6SMDV;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = om.AirportDataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -634,7 +622,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G347N6SMDV;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = om.AirportDataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
