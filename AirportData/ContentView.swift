@@ -9,16 +9,25 @@ import CoreData
 import SwiftUI
 
 struct ContentView: View {
-    var airportData = AirportData()
+    @State var airportData = AirportData()
     var body: some View {
-        Text(airportData.readData(forName: "MUCAirportData").data[25].airline.name!)
+        VStack {
+            TabView {
+                AllFlightsInfoView(airportData: airportData, type: .arrival).tabItem { Label(
+                    "Arrivals", systemImage: "airplane.arrival")
+                }
+                AllFlightsInfoView(airportData: airportData, type: .departure).tabItem { Label(
+                    "Departures", systemImage: "airplane.departure")
+                }
+            }
+        }.task {
+            airportData.readData(forName: "MUC")
+        }
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
 }
-

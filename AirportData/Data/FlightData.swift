@@ -8,10 +8,18 @@
 import Foundation
 
 struct FlightData: Decodable {
-    let data: [FlightOverview]
+    var data: [FlightOverview]
 }
 
-struct FlightOverview: Decodable {
+struct FlightOverview: Decodable, Identifiable, Equatable, Hashable {
+    static func == (lhs: FlightOverview, rhs: FlightOverview) -> Bool {
+        lhs.flight.codeshared?.flightNumber == rhs.flight.codeshared?.flightNumber
+    }
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(flight.codeshared?.flightNumber)
+    }
+
     enum CodingKeys: String, CodingKey {
         case departure, arrival, airline, flight
 
@@ -19,6 +27,7 @@ struct FlightOverview: Decodable {
         case flightStatus = "flight_status"
     }
 
+    var id = UUID()
     var flightDate: String?
     var flightStatus: FlightStatus
     var departure: FlightInfo
@@ -41,7 +50,26 @@ struct Airline: Decodable {
 }
 
 struct Flight: Decodable {
-    var number: String?
+    var iata: String?
+    let codeshared: Codeshared?
+}
+
+struct Codeshared: Decodable {
+    let airlineName: String
+    let airlineIata: String
+    let airlineIcao: String
+    let flightNumber: String
+    let flightIata: String
+    let flightIcao: String
+
+    enum CodingKeys: String, CodingKey {
+        case airlineName = "airline_name"
+        case airlineIata = "airline_iata"
+        case airlineIcao = "airline_icao"
+        case flightNumber = "flight_number"
+        case flightIata = "flight_iata"
+        case flightIcao = "flight_icao"
+    }
 }
 
 enum FlightStatus: String, Codable {
@@ -51,4 +79,10 @@ enum FlightStatus: String, Codable {
     case cancelled
     case incident
     case diverted
+    case noStatus
+}
+
+enum FlightDataType: String, CaseIterable {
+    case arrival
+    case departure
 }

@@ -1,0 +1,5016 @@
+{
+    "pagination": {
+        "limit": 100,
+        "offset": 0,
+        "count": 100,
+        "total": 4483
+    },
+    "data": [
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia\/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-15T03:30:00+00:00",
+                "estimated": "2023-08-15T03:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-15T00:25:00+00:00",
+                "estimated": "2023-08-15T00:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Cargo",
+                "iata": "CK",
+                "icao": "CKK"
+            },
+            "flight": {
+                "number": "223",
+                "iata": "CK223",
+                "icao": "CKK223",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shenzhen",
+                "timezone": "Asia\/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-15T03:35:00+00:00",
+                "estimated": "2023-08-15T03:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-15T01:45:00+00:00",
+                "estimated": "2023-08-15T01:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Cargo",
+                "iata": "CK",
+                "icao": "CKK"
+            },
+            "flight": {
+                "number": "229",
+                "iata": "CK229",
+                "icao": "CKK229",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia\/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-15T03:00:00+00:00",
+                "estimated": "2023-08-15T03:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T23:25:00+00:00",
+                "estimated": "2023-08-14T23:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "447",
+                "iata": "CZ447",
+                "icao": "CSN447",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia\/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2023-08-15T02:45:00+00:00",
+                "estimated": "2023-08-15T02:45:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-15T00:00:00+00:00",
+                "estimated": "2023-08-15T00:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Suparna Airlines",
+                "iata": "Y8",
+                "icao": "YZR"
+            },
+            "flight": {
+                "number": "7459",
+                "iata": "Y87459",
+                "icao": "YZR7459",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shanghai Pudong International",
+                "timezone": "Asia\/Shanghai",
+                "iata": "PVG",
+                "icao": "ZSPD",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-15T00:05:00+00:00",
+                "estimated": "2023-08-15T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T20:30:00+00:00",
+                "estimated": "2023-08-14T20:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Southern Airlines",
+                "iata": "CZ",
+                "icao": "CSN"
+            },
+            "flight": {
+                "number": "443",
+                "iata": "CZ443",
+                "icao": "CSN443",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia\/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "3",
+                "gate": "107B",
+                "delay": 10,
+                "scheduled": "2023-08-15T00:30:00+00:00",
+                "estimated": "2023-08-15T00:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "TBIT",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T19:10:00+00:00",
+                "estimated": "2023-08-14T19:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "7982",
+                "iata": "UA7982",
+                "icao": "UAL7982",
+                "codeshared": {
+                    "airline_name": "ana",
+                    "airline_iata": "nh",
+                    "airline_icao": "ana",
+                    "flight_number": "106",
+                    "flight_iata": "nh106",
+                    "flight_icao": "ana106"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Nanjing Lukou International Airport",
+                "timezone": "Asia\/Shanghai",
+                "iata": "NKG",
+                "icao": "ZSNJ",
+                "terminal": null,
+                "gate": null,
+                "delay": null,
+                "scheduled": "2023-08-15T01:10:00+00:00",
+                "estimated": "2023-08-15T01:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T22:10:00+00:00",
+                "estimated": "2023-08-14T22:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Suparna Airlines",
+                "iata": "Y8",
+                "icao": "YZR"
+            },
+            "flight": {
+                "number": "7491",
+                "iata": "Y87491",
+                "icao": "YZR7491",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Beijing Capital International",
+                "timezone": "Asia\/Shanghai",
+                "iata": "PEK",
+                "icao": "ZBAA",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-15T01:30:00+00:00",
+                "estimated": "2023-08-15T01:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T21:50:00+00:00",
+                "estimated": "2023-08-14T21:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Eastern Airlines",
+                "iata": "MU",
+                "icao": "CES"
+            },
+            "flight": {
+                "number": "7579",
+                "iata": "MU7579",
+                "icao": "CES7579",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia\/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": "32",
+                "delay": null,
+                "scheduled": "2023-08-15T00:05:00+00:00",
+                "estimated": "2023-08-15T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "B",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T22:35:00+00:00",
+                "estimated": "2023-08-14T22:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Cathay Pacific",
+                "iata": "CX",
+                "icao": "CPA"
+            },
+            "flight": {
+                "number": "880",
+                "iata": "CX880",
+                "icao": "CPA880",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia\/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": "32",
+                "delay": null,
+                "scheduled": "2023-08-15T00:05:00+00:00",
+                "estimated": "2023-08-15T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "B",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T22:35:00+00:00",
+                "estimated": "2023-08-14T22:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "9190",
+                "iata": "MH9190",
+                "icao": "MAS9190",
+                "codeshared": {
+                    "airline_name": "cathay pacific",
+                    "airline_iata": "cx",
+                    "airline_icao": "cpa",
+                    "flight_number": "880",
+                    "flight_iata": "cx880",
+                    "flight_icao": "cpa880"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Hong Kong International",
+                "timezone": "Asia\/Hong_Kong",
+                "iata": "HKG",
+                "icao": "VHHH",
+                "terminal": "1",
+                "gate": "32",
+                "delay": null,
+                "scheduled": "2023-08-15T00:05:00+00:00",
+                "estimated": "2023-08-15T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "B",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T22:35:00+00:00",
+                "estimated": "2023-08-14T22:35:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "8933",
+                "iata": "AA8933",
+                "icao": "AAL8933",
+                "codeshared": {
+                    "airline_name": "cathay pacific",
+                    "airline_iata": "cx",
+                    "airline_icao": "cpa",
+                    "flight_number": "880",
+                    "flight_iata": "cx880",
+                    "flight_icao": "cpa880"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Haneda Airport",
+                "timezone": "Asia\/Tokyo",
+                "iata": "HND",
+                "icao": "RJTT",
+                "terminal": "3",
+                "gate": "107B",
+                "delay": 10,
+                "scheduled": "2023-08-15T00:30:00+00:00",
+                "estimated": "2023-08-15T00:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "TBIT",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T19:10:00+00:00",
+                "estimated": "2023-08-14T19:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "ANA",
+                "iata": "NH",
+                "icao": "ANA"
+            },
+            "flight": {
+                "number": "106",
+                "iata": "NH106",
+                "icao": "ANA106",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-15",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Shenzhen",
+                "timezone": "Asia\/Shanghai",
+                "iata": "SZX",
+                "icao": "ZGSZ",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-15T00:05:00+00:00",
+                "estimated": "2023-08-15T00:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T21:50:00+00:00",
+                "estimated": "2023-08-14T21:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Eastern Airlines",
+                "iata": "MU",
+                "icao": "CES"
+            },
+            "flight": {
+                "number": "7331",
+                "iata": "MU7331",
+                "icao": "CES7331",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Hartsfield-jackson Atlanta International",
+                "timezone": "America\/New_York",
+                "iata": "ATL",
+                "icao": "KATL",
+                "terminal": "S",
+                "gate": "A10",
+                "delay": null,
+                "scheduled": "2023-08-14T10:00:00+00:00",
+                "estimated": "2023-08-14T10:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "22",
+                "baggage": "23",
+                "delay": null,
+                "scheduled": "2023-08-14T11:41:00+00:00",
+                "estimated": "2023-08-14T11:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "WestJet",
+                "iata": "WS",
+                "icao": "WJA"
+            },
+            "flight": {
+                "number": "7602",
+                "iata": "WS7602",
+                "icao": "WJA7602",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "501",
+                    "flight_iata": "dl501",
+                    "flight_icao": "dal501"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Hartsfield-jackson Atlanta International",
+                "timezone": "America\/New_York",
+                "iata": "ATL",
+                "icao": "KATL",
+                "terminal": "S",
+                "gate": "A10",
+                "delay": null,
+                "scheduled": "2023-08-14T10:00:00+00:00",
+                "estimated": "2023-08-14T10:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "22",
+                "baggage": "23",
+                "delay": null,
+                "scheduled": "2023-08-14T11:41:00+00:00",
+                "estimated": "2023-08-14T11:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "6403",
+                "iata": "LA6403",
+                "icao": "LAN6403",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "501",
+                    "flight_iata": "dl501",
+                    "flight_icao": "dal501"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Charlotte Douglas",
+                "timezone": "America\/New_York",
+                "iata": "CLT",
+                "icao": "KCLT",
+                "terminal": null,
+                "gate": "B13",
+                "delay": null,
+                "scheduled": "2023-08-14T16:29:00+00:00",
+                "estimated": "2023-08-14T16:29:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "54A",
+                "baggage": "T5C5",
+                "delay": null,
+                "scheduled": "2023-08-14T18:34:00+00:00",
+                "estimated": "2023-08-14T18:34:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "2947",
+                "iata": "AA2947",
+                "icao": "AAL2947",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Charlotte Douglas",
+                "timezone": "America\/New_York",
+                "iata": "CLT",
+                "icao": "KCLT",
+                "terminal": null,
+                "gate": "C8",
+                "delay": 279,
+                "scheduled": "2023-08-14T10:50:00+00:00",
+                "estimated": "2023-08-14T10:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "47B",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T12:50:00+00:00",
+                "estimated": "2023-08-14T12:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Tahiti Nui",
+                "iata": "TN",
+                "icao": "THT"
+            },
+            "flight": {
+                "number": "1218",
+                "iata": "TN1218",
+                "icao": "THT1218",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "1966",
+                    "flight_iata": "aa1966",
+                    "flight_icao": "aal1966"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Austin-bergstrom International",
+                "timezone": "America\/Chicago",
+                "iata": "AUS",
+                "icao": "KAUS",
+                "terminal": null,
+                "gate": "26",
+                "delay": null,
+                "scheduled": "2023-08-14T12:28:00+00:00",
+                "estimated": "2023-08-14T12:28:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "46A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T13:39:00+00:00",
+                "estimated": "2023-08-14T13:39:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Tahiti Nui",
+                "iata": "TN",
+                "icao": "THT"
+            },
+            "flight": {
+                "number": "1161",
+                "iata": "TN1161",
+                "icao": "THT1161",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "539",
+                    "flight_iata": "aa539",
+                    "flight_icao": "aal539"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Austin-bergstrom International",
+                "timezone": "America\/Chicago",
+                "iata": "AUS",
+                "icao": "KAUS",
+                "terminal": null,
+                "gate": "26",
+                "delay": null,
+                "scheduled": "2023-08-14T12:28:00+00:00",
+                "estimated": "2023-08-14T12:28:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "46A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T13:39:00+00:00",
+                "estimated": "2023-08-14T13:39:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "2598",
+                "iata": "QR2598",
+                "icao": "QTR2598",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "539",
+                    "flight_iata": "aa539",
+                    "flight_icao": "aal539"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Austin-bergstrom International",
+                "timezone": "America\/Chicago",
+                "iata": "AUS",
+                "icao": "KAUS",
+                "terminal": null,
+                "gate": "26",
+                "delay": null,
+                "scheduled": "2023-08-14T12:28:00+00:00",
+                "estimated": "2023-08-14T12:28:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "46A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T13:39:00+00:00",
+                "estimated": "2023-08-14T13:39:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Malaysia Airlines",
+                "iata": "MH",
+                "icao": "MAS"
+            },
+            "flight": {
+                "number": "9344",
+                "iata": "MH9344",
+                "icao": "MAS9344",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "539",
+                    "flight_iata": "aa539",
+                    "flight_icao": "aal539"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Austin-bergstrom International",
+                "timezone": "America\/Chicago",
+                "iata": "AUS",
+                "icao": "KAUS",
+                "terminal": null,
+                "gate": "26",
+                "delay": null,
+                "scheduled": "2023-08-14T12:28:00+00:00",
+                "estimated": "2023-08-14T12:28:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "46A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T13:39:00+00:00",
+                "estimated": "2023-08-14T13:39:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "6493",
+                "iata": "AS6493",
+                "icao": "ASA6493",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "539",
+                    "flight_iata": "aa539",
+                    "flight_icao": "aal539"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America\/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "8",
+                "gate": "43",
+                "delay": 43,
+                "scheduled": "2023-08-14T10:00:00+00:00",
+                "estimated": "2023-08-14T10:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "45",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T13:13:00+00:00",
+                "estimated": "2023-08-14T13:13:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qatar Airways",
+                "iata": "QR",
+                "icao": "QTR"
+            },
+            "flight": {
+                "number": "9192",
+                "iata": "QR9192",
+                "icao": "QTR9192",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "255",
+                    "flight_iata": "aa255",
+                    "flight_icao": "aal255"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America\/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "8",
+                "gate": "43",
+                "delay": 43,
+                "scheduled": "2023-08-14T10:00:00+00:00",
+                "estimated": "2023-08-14T10:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "45",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T13:13:00+00:00",
+                "estimated": "2023-08-14T13:13:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "3218",
+                "iata": "QF3218",
+                "icao": "QFA3218",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "255",
+                    "flight_iata": "aa255",
+                    "flight_icao": "aal255"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America\/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "8",
+                "gate": "43",
+                "delay": 43,
+                "scheduled": "2023-08-14T10:00:00+00:00",
+                "estimated": "2023-08-14T10:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "45",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T13:13:00+00:00",
+                "estimated": "2023-08-14T13:13:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "British Airways",
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "flight": {
+                "number": "4685",
+                "iata": "BA4685",
+                "icao": "BAW4685",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "255",
+                    "flight_iata": "aa255",
+                    "flight_icao": "aal255"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America\/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "8",
+                "gate": "43",
+                "delay": 43,
+                "scheduled": "2023-08-14T10:00:00+00:00",
+                "estimated": "2023-08-14T10:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "45",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T13:13:00+00:00",
+                "estimated": "2023-08-14T13:13:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "JetBlue Airways",
+                "iata": "B6",
+                "icao": "JBU"
+            },
+            "flight": {
+                "number": "4185",
+                "iata": "B64185",
+                "icao": "JBU4185",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "255",
+                    "flight_iata": "aa255",
+                    "flight_icao": "aal255"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America\/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "8",
+                "gate": "43",
+                "delay": 43,
+                "scheduled": "2023-08-14T10:00:00+00:00",
+                "estimated": "2023-08-14T10:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "45",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T13:13:00+00:00",
+                "estimated": "2023-08-14T13:13:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Royal Air Maroc",
+                "iata": "AT",
+                "icao": "RAM"
+            },
+            "flight": {
+                "number": "5044",
+                "iata": "AT5044",
+                "icao": "RAM5044",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "255",
+                    "flight_iata": "aa255",
+                    "flight_icao": "aal255"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Logan International",
+                "timezone": "America\/New_York",
+                "iata": "BOS",
+                "icao": "KBOS",
+                "terminal": "A",
+                "gate": "A15",
+                "delay": null,
+                "scheduled": "2023-08-14T16:10:00+00:00",
+                "estimated": "2023-08-14T16:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "22",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T19:26:00+00:00",
+                "estimated": "2023-08-14T19:26:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "504",
+                "iata": "DL504",
+                "icao": "DAL504",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Logan International",
+                "timezone": "America\/New_York",
+                "iata": "BOS",
+                "icao": "KBOS",
+                "terminal": "C",
+                "gate": "C8",
+                "delay": null,
+                "scheduled": "2023-08-14T16:10:00+00:00",
+                "estimated": "2023-08-14T16:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T19:17:00+00:00",
+                "estimated": "2023-08-14T19:17:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "JetBlue Airways",
+                "iata": "B6",
+                "icao": "JBU"
+            },
+            "flight": {
+                "number": "487",
+                "iata": "B6487",
+                "icao": "JBU487",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "General Mitchell International",
+                "timezone": "America\/Chicago",
+                "iata": "MKE",
+                "icao": "KMKE",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-14T09:30:00+00:00",
+                "estimated": "2023-08-14T09:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T11:27:00+00:00",
+                "estimated": "2023-08-14T11:27:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Private owner",
+                "iata": null,
+                "icao": null
+            },
+            "flight": {
+                "number": "448",
+                "iata": null,
+                "icao": null,
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Minneapolis - St. Paul International",
+                "timezone": "America\/Chicago",
+                "iata": "MSP",
+                "icao": "KMSP",
+                "terminal": "2",
+                "gate": null,
+                "delay": 13,
+                "scheduled": "2023-08-14T15:30:00+00:00",
+                "estimated": "2023-08-14T15:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "1",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:20:00+00:00",
+                "estimated": "2023-08-14T17:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Sun Country Airlines",
+                "iata": "SY",
+                "icao": "SCX"
+            },
+            "flight": {
+                "number": "421",
+                "iata": "SY421",
+                "icao": "SCX421",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Seattle-Tacoma International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SEA",
+                "icao": "KSEA",
+                "terminal": null,
+                "gate": "A1",
+                "delay": null,
+                "scheduled": "2023-08-14T14:00:00+00:00",
+                "estimated": "2023-08-14T14:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "22",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T16:53:00+00:00",
+                "estimated": "2023-08-14T16:53:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "2427",
+                "iata": "DL2427",
+                "icao": "DAL2427",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Seattle-Tacoma International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SEA",
+                "icao": "KSEA",
+                "terminal": null,
+                "gate": "D4",
+                "delay": null,
+                "scheduled": "2023-08-14T13:40:00+00:00",
+                "estimated": "2023-08-14T13:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "64B",
+                "baggage": "T6-6",
+                "delay": null,
+                "scheduled": "2023-08-14T16:30:00+00:00",
+                "estimated": "2023-08-14T16:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "1300",
+                "iata": "AS1300",
+                "icao": "ASA1300",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "San Francisco International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "C11",
+                "delay": null,
+                "scheduled": "2023-08-14T13:30:00+00:00",
+                "estimated": "2023-08-14T13:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "37B",
+                "baggage": "23",
+                "delay": null,
+                "scheduled": "2023-08-14T15:05:00+00:00",
+                "estimated": "2023-08-14T15:05:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "2272",
+                "iata": "DL2272",
+                "icao": "DAL2272",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tulsa International",
+                "timezone": "America\/Chicago",
+                "iata": "TUL",
+                "icao": "KTUL",
+                "terminal": null,
+                "gate": "A9",
+                "delay": null,
+                "scheduled": "2023-08-14T15:10:00+00:00",
+                "estimated": "2023-08-14T15:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "52E",
+                "baggage": "T5C6",
+                "delay": null,
+                "scheduled": "2023-08-14T16:37:00+00:00",
+                "estimated": "2023-08-14T16:37:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "4890",
+                "iata": "AA4890",
+                "icao": "AAL4890",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Tulsa International",
+                "timezone": "America\/Chicago",
+                "iata": "TUL",
+                "icao": "KTUL",
+                "terminal": null,
+                "gate": "A9",
+                "delay": null,
+                "scheduled": "2023-08-14T15:10:00+00:00",
+                "estimated": "2023-08-14T15:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "52E",
+                "baggage": "T5C6",
+                "delay": null,
+                "scheduled": "2023-08-14T16:37:00+00:00",
+                "estimated": "2023-08-14T16:37:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "6947",
+                "iata": "AS6947",
+                "icao": "ASA6947",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "4890",
+                    "flight_iata": "aa4890",
+                    "flight_icao": "aal4890"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America\/Kentucky\/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": "A6",
+                "delay": null,
+                "scheduled": "2023-08-14T16:54:00+00:00",
+                "estimated": "2023-08-14T16:54:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T18:16:00+00:00",
+                "estimated": "2023-08-14T18:16:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Spirit Airlines",
+                "iata": "NK",
+                "icao": "NKS"
+            },
+            "flight": {
+                "number": "502",
+                "iata": "NK502",
+                "icao": "NKS502",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Newark Liberty International",
+                "timezone": "America\/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "C",
+                "gate": "98",
+                "delay": null,
+                "scheduled": "2023-08-14T12:00:00+00:00",
+                "estimated": "2023-08-14T12:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "7",
+                "gate": "76A",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2023-08-14T14:43:00+00:00",
+                "estimated": "2023-08-14T14:43:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "2226",
+                "iata": "UA2226",
+                "icao": "UAL2226",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Newark Liberty International",
+                "timezone": "America\/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "C",
+                "gate": "98",
+                "delay": null,
+                "scheduled": "2023-08-14T12:00:00+00:00",
+                "estimated": "2023-08-14T12:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "7",
+                "gate": "76A",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2023-08-14T14:43:00+00:00",
+                "estimated": "2023-08-14T14:43:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "8141",
+                "iata": "VA8141",
+                "icao": "VOZ8141",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2226",
+                    "flight_iata": "ua2226",
+                    "flight_icao": "ual2226"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Newark Liberty International",
+                "timezone": "America\/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "C",
+                "gate": "98",
+                "delay": null,
+                "scheduled": "2023-08-14T12:00:00+00:00",
+                "estimated": "2023-08-14T12:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "7",
+                "gate": "76A",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2023-08-14T14:43:00+00:00",
+                "estimated": "2023-08-14T14:43:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9538",
+                "iata": "NZ9538",
+                "icao": "ANZ9538",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "2226",
+                    "flight_iata": "ua2226",
+                    "flight_icao": "ual2226"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America\/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "A",
+                "gate": "10",
+                "delay": null,
+                "scheduled": "2023-08-14T15:40:00+00:00",
+                "estimated": "2023-08-14T15:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "26B",
+                "baggage": "22",
+                "delay": null,
+                "scheduled": "2023-08-14T17:08:00+00:00",
+                "estimated": "2023-08-14T17:08:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "1540",
+                "iata": "DL1540",
+                "icao": "DAL1540",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America\/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "4",
+                "gate": "A21",
+                "delay": null,
+                "scheduled": "2023-08-14T14:08:00+00:00",
+                "estimated": "2023-08-14T14:08:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "53A",
+                "baggage": "T5C5",
+                "delay": null,
+                "scheduled": "2023-08-14T15:41:00+00:00",
+                "estimated": "2023-08-14T15:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "463",
+                "iata": "AA463",
+                "icao": "AAL463",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America\/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "4",
+                "gate": "A21",
+                "delay": null,
+                "scheduled": "2023-08-14T14:08:00+00:00",
+                "estimated": "2023-08-14T14:08:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "53A",
+                "baggage": "T5C5",
+                "delay": null,
+                "scheduled": "2023-08-14T15:41:00+00:00",
+                "estimated": "2023-08-14T15:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Tahiti Nui",
+                "iata": "TN",
+                "icao": "THT"
+            },
+            "flight": {
+                "number": "1305",
+                "iata": "TN1305",
+                "icao": "THT1305",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "463",
+                    "flight_iata": "aa463",
+                    "flight_icao": "aal463"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America\/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "4",
+                "gate": "A21",
+                "delay": null,
+                "scheduled": "2023-08-14T14:08:00+00:00",
+                "estimated": "2023-08-14T14:08:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "53A",
+                "baggage": "T5C5",
+                "delay": null,
+                "scheduled": "2023-08-14T15:41:00+00:00",
+                "estimated": "2023-08-14T15:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "British Airways",
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "flight": {
+                "number": "5457",
+                "iata": "BA5457",
+                "icao": "BAW5457",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "463",
+                    "flight_iata": "aa463",
+                    "flight_icao": "aal463"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sky Harbor International",
+                "timezone": "America\/Phoenix",
+                "iata": "PHX",
+                "icao": "KPHX",
+                "terminal": "4",
+                "gate": "A21",
+                "delay": null,
+                "scheduled": "2023-08-14T14:08:00+00:00",
+                "estimated": "2023-08-14T14:08:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "53A",
+                "baggage": "T5C5",
+                "delay": null,
+                "scheduled": "2023-08-14T15:41:00+00:00",
+                "estimated": "2023-08-14T15:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Finnair",
+                "iata": "AY",
+                "icao": "FIN"
+            },
+            "flight": {
+                "number": "4034",
+                "iata": "AY4034",
+                "icao": "FIN4034",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "463",
+                    "flight_iata": "aa463",
+                    "flight_icao": "aal463"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Mineta San Jose International Airport",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SJC",
+                "icao": "KSJC",
+                "terminal": "A",
+                "gate": "12",
+                "delay": null,
+                "scheduled": "2023-08-14T13:25:00+00:00",
+                "estimated": "2023-08-14T13:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "26B",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T14:53:00+00:00",
+                "estimated": "2023-08-14T14:53:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "4157",
+                "iata": "DL4157",
+                "icao": "DAL4157",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "B",
+                "gate": "16",
+                "delay": null,
+                "scheduled": "2023-08-14T13:55:00+00:00",
+                "estimated": "2023-08-14T13:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "1",
+                "gate": "18B",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T15:20:00+00:00",
+                "estimated": "2023-08-14T15:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Southwest Airlines",
+                "iata": "WN",
+                "icao": "SWA"
+            },
+            "flight": {
+                "number": "2490",
+                "iata": "WN2490",
+                "icao": "SWA2490",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Licenciado Gustavo D\u00edaz Ordaz International",
+                "timezone": "America\/Mexico_City",
+                "iata": "PVR",
+                "icao": "MMPR",
+                "terminal": "1",
+                "gate": "B",
+                "delay": 18,
+                "scheduled": "2023-08-14T14:46:00+00:00",
+                "estimated": "2023-08-14T14:46:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "B",
+                "gate": "155",
+                "baggage": "TBIT",
+                "delay": null,
+                "scheduled": "2023-08-14T16:48:00+00:00",
+                "estimated": "2023-08-14T16:48:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "1881",
+                "iata": "AA1881",
+                "icao": "AAL1881",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Gen Rafael Buelna",
+                "timezone": "America\/Mazatlan",
+                "iata": "MZT",
+                "icao": "MMMZ",
+                "terminal": "A",
+                "gate": "HG",
+                "delay": null,
+                "scheduled": "2023-08-14T13:50:00+00:00",
+                "estimated": "2023-08-14T13:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "66",
+                "baggage": "T6-6",
+                "delay": null,
+                "scheduled": "2023-08-14T16:34:00+00:00",
+                "estimated": "2023-08-14T16:34:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "1375",
+                "iata": "AS1375",
+                "icao": "ASA1375",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Spokane International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "GEG",
+                "icao": "KGEG",
+                "terminal": null,
+                "gate": "B4",
+                "delay": null,
+                "scheduled": "2023-08-14T13:41:00+00:00",
+                "estimated": "2023-08-14T13:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "25B",
+                "baggage": "21",
+                "delay": null,
+                "scheduled": "2023-08-14T16:21:00+00:00",
+                "estimated": "2023-08-14T16:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "4045",
+                "iata": "DL4045",
+                "icao": "DAL4045",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Spokane International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "GEG",
+                "icao": "KGEG",
+                "terminal": null,
+                "gate": "B4",
+                "delay": null,
+                "scheduled": "2023-08-14T13:41:00+00:00",
+                "estimated": "2023-08-14T13:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "25B",
+                "baggage": "21",
+                "delay": null,
+                "scheduled": "2023-08-14T16:21:00+00:00",
+                "estimated": "2023-08-14T16:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "2078",
+                "iata": "VS2078",
+                "icao": "VIR2078",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "4045",
+                    "flight_iata": "dl4045",
+                    "flight_icao": "dal4045"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Spokane International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "GEG",
+                "icao": "KGEG",
+                "terminal": null,
+                "gate": "B4",
+                "delay": null,
+                "scheduled": "2023-08-14T13:41:00+00:00",
+                "estimated": "2023-08-14T13:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "25B",
+                "baggage": "21",
+                "delay": null,
+                "scheduled": "2023-08-14T16:21:00+00:00",
+                "estimated": "2023-08-14T16:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Korean Air",
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "flight": {
+                "number": "3191",
+                "iata": "KE3191",
+                "icao": "KAL3191",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "4045",
+                    "flight_iata": "dl4045",
+                    "flight_icao": "dal4045"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Spokane International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "GEG",
+                "icao": "KGEG",
+                "terminal": null,
+                "gate": "B4",
+                "delay": null,
+                "scheduled": "2023-08-14T13:41:00+00:00",
+                "estimated": "2023-08-14T13:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "25B",
+                "baggage": "21",
+                "delay": null,
+                "scheduled": "2023-08-14T16:21:00+00:00",
+                "estimated": "2023-08-14T16:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Airlines",
+                "iata": "CI",
+                "icao": "CAL"
+            },
+            "flight": {
+                "number": "9006",
+                "iata": "CI9006",
+                "icao": "CAL9006",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "4045",
+                    "flight_iata": "dl4045",
+                    "flight_icao": "dal4045"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Spokane International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "GEG",
+                "icao": "KGEG",
+                "terminal": null,
+                "gate": "B4",
+                "delay": null,
+                "scheduled": "2023-08-14T13:41:00+00:00",
+                "estimated": "2023-08-14T13:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "25B",
+                "baggage": "21",
+                "delay": null,
+                "scheduled": "2023-08-14T16:21:00+00:00",
+                "estimated": "2023-08-14T16:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "5384",
+                "iata": "AM5384",
+                "icao": "AMX5384",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "4045",
+                    "flight_iata": "dl4045",
+                    "flight_icao": "dal4045"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Spokane International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "GEG",
+                "icao": "KGEG",
+                "terminal": null,
+                "gate": "B4",
+                "delay": null,
+                "scheduled": "2023-08-14T13:41:00+00:00",
+                "estimated": "2023-08-14T13:41:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "25B",
+                "baggage": "21",
+                "delay": null,
+                "scheduled": "2023-08-14T16:21:00+00:00",
+                "estimated": "2023-08-14T16:21:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "2208",
+                "iata": "AF2208",
+                "icao": "AFR2208",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "4045",
+                    "flight_iata": "dl4045",
+                    "flight_icao": "dal4045"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Calgary International Airport",
+                "timezone": "America\/Edmonton",
+                "iata": "YYC",
+                "icao": "CYYC",
+                "terminal": null,
+                "gate": "E95",
+                "delay": null,
+                "scheduled": "2023-08-14T14:50:00+00:00",
+                "estimated": "2023-08-14T14:50:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:04:00+00:00",
+                "estimated": "2023-08-14T17:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "WestJet",
+                "iata": "WS",
+                "icao": "WJA"
+            },
+            "flight": {
+                "number": "1514",
+                "iata": "WS1514",
+                "icao": "WJA1514",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Vancouver International",
+                "timezone": "America\/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "I",
+                "gate": null,
+                "delay": 26,
+                "scheduled": "2023-08-14T13:40:00+00:00",
+                "estimated": "2023-08-14T13:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "46A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T16:49:00+00:00",
+                "estimated": "2023-08-14T16:49:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "1719",
+                "iata": "AA1719",
+                "icao": "AAL1719",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Vancouver International",
+                "timezone": "America\/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "I",
+                "gate": null,
+                "delay": 26,
+                "scheduled": "2023-08-14T13:40:00+00:00",
+                "estimated": "2023-08-14T13:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "46A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T16:49:00+00:00",
+                "estimated": "2023-08-14T16:49:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Tahiti Nui",
+                "iata": "TN",
+                "icao": "THT"
+            },
+            "flight": {
+                "number": "1372",
+                "iata": "TN1372",
+                "icao": "THT1372",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "1719",
+                    "flight_iata": "aa1719",
+                    "flight_icao": "aal1719"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Vancouver International",
+                "timezone": "America\/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "I",
+                "gate": null,
+                "delay": 26,
+                "scheduled": "2023-08-14T13:40:00+00:00",
+                "estimated": "2023-08-14T13:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "46A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T16:49:00+00:00",
+                "estimated": "2023-08-14T16:49:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "4156",
+                "iata": "QF4156",
+                "icao": "QFA4156",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "1719",
+                    "flight_iata": "aa1719",
+                    "flight_icao": "aal1719"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Vancouver International",
+                "timezone": "America\/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "I",
+                "gate": null,
+                "delay": 26,
+                "scheduled": "2023-08-14T13:40:00+00:00",
+                "estimated": "2023-08-14T13:40:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "46A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T16:49:00+00:00",
+                "estimated": "2023-08-14T16:49:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "4663",
+                "iata": "AS4663",
+                "icao": "ASA4663",
+                "codeshared": {
+                    "airline_name": "american airlines",
+                    "airline_iata": "aa",
+                    "airline_icao": "aal",
+                    "flight_number": "1719",
+                    "flight_iata": "aa1719",
+                    "flight_icao": "aal1719"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Vancouver International",
+                "timezone": "America\/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "M",
+                "gate": "E82",
+                "delay": null,
+                "scheduled": "2023-08-14T13:20:00+00:00",
+                "estimated": "2023-08-14T13:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "62",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T16:20:00+00:00",
+                "estimated": "2023-08-14T16:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air Canada",
+                "iata": "AC",
+                "icao": "ACA"
+            },
+            "flight": {
+                "number": "556",
+                "iata": "AC556",
+                "icao": "ACA556",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Vancouver International",
+                "timezone": "America\/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "M",
+                "gate": "E82",
+                "delay": null,
+                "scheduled": "2023-08-14T13:20:00+00:00",
+                "estimated": "2023-08-14T13:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "62",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T16:20:00+00:00",
+                "estimated": "2023-08-14T16:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "8628",
+                "iata": "UA8628",
+                "icao": "UAL8628",
+                "codeshared": {
+                    "airline_name": "air canada",
+                    "airline_iata": "ac",
+                    "airline_icao": "aca",
+                    "flight_number": "556",
+                    "flight_iata": "ac556",
+                    "flight_icao": "aca556"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Vancouver International",
+                "timezone": "America\/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "M",
+                "gate": "E82",
+                "delay": null,
+                "scheduled": "2023-08-14T13:20:00+00:00",
+                "estimated": "2023-08-14T13:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "62",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T16:20:00+00:00",
+                "estimated": "2023-08-14T16:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "4605",
+                "iata": "NZ4605",
+                "icao": "ANZ4605",
+                "codeshared": {
+                    "airline_name": "air canada",
+                    "airline_iata": "ac",
+                    "airline_icao": "aca",
+                    "flight_number": "556",
+                    "flight_iata": "ac556",
+                    "flight_icao": "aca556"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Vancouver International",
+                "timezone": "America\/Vancouver",
+                "iata": "YVR",
+                "icao": "CYVR",
+                "terminal": "M",
+                "gate": "E82",
+                "delay": null,
+                "scheduled": "2023-08-14T13:20:00+00:00",
+                "estimated": "2023-08-14T13:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "62",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T16:20:00+00:00",
+                "estimated": "2023-08-14T16:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "SA AVIANCA",
+                "iata": "AV",
+                "icao": "AVA"
+            },
+            "flight": {
+                "number": "6994",
+                "iata": "AV6994",
+                "icao": "AVA6994",
+                "codeshared": {
+                    "airline_name": "air canada",
+                    "airline_iata": "ac",
+                    "airline_icao": "aca",
+                    "flight_number": "556",
+                    "flight_iata": "ac556",
+                    "flight_icao": "aca556"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Boise Air Terminal\/Gowen Field",
+                "timezone": "America\/Boise",
+                "iata": "BOI",
+                "icao": "KBOI",
+                "terminal": null,
+                "gate": "C6",
+                "delay": 7,
+                "scheduled": "2023-08-14T07:30:00+00:00",
+                "estimated": "2023-08-14T07:30:00+00:00",
+                "actual": "2023-08-14T07:36:00+00:00",
+                "estimated_runway": "2023-08-14T07:36:00+00:00",
+                "actual_runway": "2023-08-14T07:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "64",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T08:54:00+00:00",
+                "estimated": "2023-08-14T08:54:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "British Airways",
+                "iata": "BA",
+                "icao": "BAW"
+            },
+            "flight": {
+                "number": "2996",
+                "iata": "BA2996",
+                "icao": "BAW2996",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "3307",
+                    "flight_iata": "as3307",
+                    "flight_icao": "asa3307"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Boise Air Terminal\/Gowen Field",
+                "timezone": "America\/Boise",
+                "iata": "BOI",
+                "icao": "KBOI",
+                "terminal": null,
+                "gate": "C6",
+                "delay": 7,
+                "scheduled": "2023-08-14T07:30:00+00:00",
+                "estimated": "2023-08-14T07:30:00+00:00",
+                "actual": "2023-08-14T07:36:00+00:00",
+                "estimated_runway": "2023-08-14T07:36:00+00:00",
+                "actual_runway": "2023-08-14T07:36:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "64",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T08:54:00+00:00",
+                "estimated": "2023-08-14T08:54:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "7427",
+                "iata": "AA7427",
+                "icao": "AAL7427",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "3307",
+                    "flight_iata": "as3307",
+                    "flight_icao": "asa3307"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Chicago O\u0027hare International",
+                "timezone": "America\/Chicago",
+                "iata": "ORD",
+                "icao": "KORD",
+                "terminal": "3",
+                "gate": "H12",
+                "delay": null,
+                "scheduled": "2023-08-14T15:25:00+00:00",
+                "estimated": "2023-08-14T15:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "47A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T17:43:00+00:00",
+                "estimated": "2023-08-14T17:43:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "1375",
+                "iata": "AA1375",
+                "icao": "AAL1375",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Orlando International",
+                "timezone": "America\/New_York",
+                "iata": "MCO",
+                "icao": "KMCO",
+                "terminal": "B",
+                "gate": "74",
+                "delay": null,
+                "scheduled": "2023-08-14T16:20:00+00:00",
+                "estimated": "2023-08-14T16:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "31A",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T18:32:00+00:00",
+                "estimated": "2023-08-14T18:32:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "652",
+                "iata": "DL652",
+                "icao": "DAL652",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Orlando International",
+                "timezone": "America\/New_York",
+                "iata": "MCO",
+                "icao": "KMCO",
+                "terminal": "B",
+                "gate": "74",
+                "delay": null,
+                "scheduled": "2023-08-14T16:20:00+00:00",
+                "estimated": "2023-08-14T16:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "31A",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T18:32:00+00:00",
+                "estimated": "2023-08-14T18:32:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "2223",
+                "iata": "VS2223",
+                "icao": "VIR2223",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "652",
+                    "flight_iata": "dl652",
+                    "flight_icao": "dal652"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Orlando International",
+                "timezone": "America\/New_York",
+                "iata": "MCO",
+                "icao": "KMCO",
+                "terminal": "B",
+                "gate": "74",
+                "delay": null,
+                "scheduled": "2023-08-14T16:20:00+00:00",
+                "estimated": "2023-08-14T16:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "31A",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T18:32:00+00:00",
+                "estimated": "2023-08-14T18:32:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "6556",
+                "iata": "LA6556",
+                "icao": "LAN6556",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "652",
+                    "flight_iata": "dl652",
+                    "flight_icao": "dal652"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Orlando International",
+                "timezone": "America\/New_York",
+                "iata": "MCO",
+                "icao": "KMCO",
+                "terminal": "B",
+                "gate": "74",
+                "delay": null,
+                "scheduled": "2023-08-14T16:20:00+00:00",
+                "estimated": "2023-08-14T16:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "31A",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T18:32:00+00:00",
+                "estimated": "2023-08-14T18:32:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Korean Air",
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "flight": {
+                "number": "7540",
+                "iata": "KE7540",
+                "icao": "KAL7540",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "652",
+                    "flight_iata": "dl652",
+                    "flight_icao": "dal652"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America\/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-14T14:25:00+00:00",
+                "estimated": "2023-08-14T14:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:25:00+00:00",
+                "estimated": "2023-08-14T17:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Aeromexico",
+                "iata": "AM",
+                "icao": "AMX"
+            },
+            "flight": {
+                "number": "642",
+                "iata": "AM642",
+                "icao": "AMX642",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America\/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-14T14:25:00+00:00",
+                "estimated": "2023-08-14T14:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:25:00+00:00",
+                "estimated": "2023-08-14T17:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "WestJet",
+                "iata": "WS",
+                "icao": "WJA"
+            },
+            "flight": {
+                "number": "6147",
+                "iata": "WS6147",
+                "icao": "WJA6147",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "642",
+                    "flight_iata": "am642",
+                    "flight_icao": "amx642"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America\/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-14T14:25:00+00:00",
+                "estimated": "2023-08-14T14:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:25:00+00:00",
+                "estimated": "2023-08-14T17:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Korean Air",
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "flight": {
+                "number": "7948",
+                "iata": "KE7948",
+                "icao": "KAL7948",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "642",
+                    "flight_iata": "am642",
+                    "flight_icao": "amx642"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Internacional Benito Juarez",
+                "timezone": "America\/Mexico_City",
+                "iata": "MEX",
+                "icao": "MMMX",
+                "terminal": "2",
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-14T14:25:00+00:00",
+                "estimated": "2023-08-14T14:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:25:00+00:00",
+                "estimated": "2023-08-14T17:25:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "9972",
+                "iata": "AF9972",
+                "icao": "AFR9972",
+                "codeshared": {
+                    "airline_name": "aeromexico",
+                    "airline_iata": "am",
+                    "airline_icao": "amx",
+                    "flight_number": "642",
+                    "flight_iata": "am642",
+                    "flight_icao": "amx642"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Ted Stevens Anchorage International Airport",
+                "timezone": "America\/Anchorage",
+                "iata": "ANC",
+                "icao": "PANC",
+                "terminal": null,
+                "gate": null,
+                "delay": 10,
+                "scheduled": "2023-08-14T08:30:00+00:00",
+                "estimated": "2023-08-14T08:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T14:11:00+00:00",
+                "estimated": "2023-08-14T14:11:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Kalitta Air",
+                "iata": "K4",
+                "icao": "CKS"
+            },
+            "flight": {
+                "number": "935",
+                "iata": "K4935",
+                "icao": "CKS935",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America\/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "8",
+                "gate": "8",
+                "delay": null,
+                "scheduled": "2023-08-14T11:30:00+00:00",
+                "estimated": "2023-08-14T11:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "4",
+                "gate": "47A",
+                "baggage": "T4A",
+                "delay": null,
+                "scheduled": "2023-08-14T14:39:00+00:00",
+                "estimated": "2023-08-14T14:39:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "American Airlines",
+                "iata": "AA",
+                "icao": "AAL"
+            },
+            "flight": {
+                "number": "331",
+                "iata": "AA331",
+                "icao": "AAL331",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America\/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "5",
+                "gate": "19",
+                "delay": 23,
+                "scheduled": "2023-08-14T10:59:00+00:00",
+                "estimated": "2023-08-14T10:59:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "59",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2023-08-14T13:46:00+00:00",
+                "estimated": "2023-08-14T13:46:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "JetBlue Airways",
+                "iata": "B6",
+                "icao": "JBU"
+            },
+            "flight": {
+                "number": "523",
+                "iata": "B6523",
+                "icao": "JBU523",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America\/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "5",
+                "gate": "8",
+                "delay": 40,
+                "scheduled": "2023-08-14T09:20:00+00:00",
+                "estimated": "2023-08-14T09:20:00+00:00",
+                "actual": "2023-08-14T09:59:00+00:00",
+                "estimated_runway": "2023-08-14T09:59:00+00:00",
+                "actual_runway": "2023-08-14T09:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "59",
+                "baggage": "1",
+                "delay": 8,
+                "scheduled": "2023-08-14T12:10:00+00:00",
+                "estimated": "2023-08-14T12:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Singapore Airlines",
+                "iata": "SQ",
+                "icao": "SIA"
+            },
+            "flight": {
+                "number": "1498",
+                "iata": "SQ1498",
+                "icao": "SIA1498",
+                "codeshared": {
+                    "airline_name": "jetblue airways",
+                    "airline_iata": "b6",
+                    "airline_icao": "jbu",
+                    "flight_number": "323",
+                    "flight_iata": "b6323",
+                    "flight_icao": "jbu323"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "John F Kennedy International",
+                "timezone": "America\/New_York",
+                "iata": "JFK",
+                "icao": "KJFK",
+                "terminal": "5",
+                "gate": "8",
+                "delay": 40,
+                "scheduled": "2023-08-14T09:20:00+00:00",
+                "estimated": "2023-08-14T09:20:00+00:00",
+                "actual": "2023-08-14T09:59:00+00:00",
+                "estimated_runway": "2023-08-14T09:59:00+00:00",
+                "actual_runway": "2023-08-14T09:59:00+00:00"
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "5",
+                "gate": "59",
+                "baggage": "1",
+                "delay": 8,
+                "scheduled": "2023-08-14T12:10:00+00:00",
+                "estimated": "2023-08-14T12:10:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Hawaiian Airlines",
+                "iata": "HA",
+                "icao": "HAL"
+            },
+            "flight": {
+                "number": "2307",
+                "iata": "HA2307",
+                "icao": "HAL2307",
+                "codeshared": {
+                    "airline_name": "jetblue airways",
+                    "airline_iata": "b6",
+                    "airline_icao": "jbu",
+                    "flight_number": "323",
+                    "flight_iata": "b6323",
+                    "flight_icao": "jbu323"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "San Diego International Airport",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SAN",
+                "icao": "KSAN",
+                "terminal": "2",
+                "gate": "24",
+                "delay": 15,
+                "scheduled": "2023-08-14T07:00:00+00:00",
+                "estimated": "2023-08-14T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": "E4",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T13:04:00+00:00",
+                "estimated": "2023-08-14T13:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Alaska Airlines",
+                "iata": "AS",
+                "icao": "ASA"
+            },
+            "flight": {
+                "number": "895",
+                "iata": "AS895",
+                "icao": "ASA895",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "San Diego International Airport",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SAN",
+                "icao": "KSAN",
+                "terminal": "2",
+                "gate": "24",
+                "delay": 15,
+                "scheduled": "2023-08-14T07:00:00+00:00",
+                "estimated": "2023-08-14T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": "E4",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T13:04:00+00:00",
+                "estimated": "2023-08-14T13:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Qantas",
+                "iata": "QF",
+                "icao": "QFA"
+            },
+            "flight": {
+                "number": "3690",
+                "iata": "QF3690",
+                "icao": "QFA3690",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "895",
+                    "flight_iata": "as895",
+                    "flight_icao": "asa895"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "San Diego International Airport",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SAN",
+                "icao": "KSAN",
+                "terminal": "2",
+                "gate": "24",
+                "delay": 15,
+                "scheduled": "2023-08-14T07:00:00+00:00",
+                "estimated": "2023-08-14T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": "E4",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T13:04:00+00:00",
+                "estimated": "2023-08-14T13:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Korean Air",
+                "iata": "KE",
+                "icao": "KAL"
+            },
+            "flight": {
+                "number": "6252",
+                "iata": "KE6252",
+                "icao": "KAL6252",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "895",
+                    "flight_iata": "as895",
+                    "flight_icao": "asa895"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "San Diego International Airport",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SAN",
+                "icao": "KSAN",
+                "terminal": "2",
+                "gate": "24",
+                "delay": 15,
+                "scheduled": "2023-08-14T07:00:00+00:00",
+                "estimated": "2023-08-14T07:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "2",
+                "gate": "E4",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T13:04:00+00:00",
+                "estimated": "2023-08-14T13:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Fiji Airways",
+                "iata": "FJ",
+                "icao": "FJI"
+            },
+            "flight": {
+                "number": "5865",
+                "iata": "FJ5865",
+                "icao": "FJI5865",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "895",
+                    "flight_iata": "as895",
+                    "flight_icao": "asa895"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe\/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "2E",
+                "gate": "M45",
+                "delay": 90,
+                "scheduled": "2023-08-14T15:20:00+00:00",
+                "estimated": "2023-08-14T15:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "B",
+                "gate": "133",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:55:00+00:00",
+                "estimated": "2023-08-14T17:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "3994",
+                "iata": "VS3994",
+                "icao": "VIR3994",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "291",
+                    "flight_iata": "dl291",
+                    "flight_icao": "dal291"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe\/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "2E",
+                "gate": "M45",
+                "delay": 90,
+                "scheduled": "2023-08-14T15:20:00+00:00",
+                "estimated": "2023-08-14T15:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "B",
+                "gate": "133",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:55:00+00:00",
+                "estimated": "2023-08-14T17:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "6134",
+                "iata": "KL6134",
+                "icao": "KLM6134",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "291",
+                    "flight_iata": "dl291",
+                    "flight_icao": "dal291"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Charles De Gaulle",
+                "timezone": "Europe\/Paris",
+                "iata": "CDG",
+                "icao": "LFPG",
+                "terminal": "2E",
+                "gate": "M45",
+                "delay": 90,
+                "scheduled": "2023-08-14T15:20:00+00:00",
+                "estimated": "2023-08-14T15:20:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "B",
+                "gate": "133",
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:55:00+00:00",
+                "estimated": "2023-08-14T17:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air France",
+                "iata": "AF",
+                "icao": "AFR"
+            },
+            "flight": {
+                "number": "5599",
+                "iata": "AF5599",
+                "icao": "AFR5599",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "291",
+                    "flight_iata": "dl291",
+                    "flight_icao": "dal291"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louisville International (Standiford Field)",
+                "timezone": "America\/Kentucky\/Louisville",
+                "iata": "SDF",
+                "icao": "KSDF",
+                "terminal": null,
+                "gate": null,
+                "delay": 15,
+                "scheduled": "2023-08-14T15:58:00+00:00",
+                "estimated": "2023-08-14T15:58:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": null,
+                "gate": null,
+                "baggage": null,
+                "delay": null,
+                "scheduled": "2023-08-14T17:03:00+00:00",
+                "estimated": "2023-08-14T17:03:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "UPS Airlines",
+                "iata": "5X",
+                "icao": "UPS"
+            },
+            "flight": {
+                "number": "2900",
+                "iata": "5X2900",
+                "icao": "UPS2900",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louis Armstrong New Orl\u00e9ans International Airport",
+                "timezone": "America\/Chicago",
+                "iata": "MSY",
+                "icao": "KMSY",
+                "terminal": null,
+                "gate": "C8",
+                "delay": null,
+                "scheduled": "2023-08-14T14:04:00+00:00",
+                "estimated": "2023-08-14T14:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "37A",
+                "baggage": "24",
+                "delay": null,
+                "scheduled": "2023-08-14T16:00:00+00:00",
+                "estimated": "2023-08-14T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "WestJet",
+                "iata": "WS",
+                "icao": "WJA"
+            },
+            "flight": {
+                "number": "8333",
+                "iata": "WS8333",
+                "icao": "WJA8333",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "2355",
+                    "flight_iata": "dl2355",
+                    "flight_icao": "dal2355"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louis Armstrong New Orl\u00e9ans International Airport",
+                "timezone": "America\/Chicago",
+                "iata": "MSY",
+                "icao": "KMSY",
+                "terminal": null,
+                "gate": "C8",
+                "delay": null,
+                "scheduled": "2023-08-14T14:04:00+00:00",
+                "estimated": "2023-08-14T14:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "37A",
+                "baggage": "24",
+                "delay": null,
+                "scheduled": "2023-08-14T16:00:00+00:00",
+                "estimated": "2023-08-14T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "2250",
+                "iata": "VS2250",
+                "icao": "VIR2250",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "2355",
+                    "flight_iata": "dl2355",
+                    "flight_icao": "dal2355"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Louis Armstrong New Orl\u00e9ans International Airport",
+                "timezone": "America\/Chicago",
+                "iata": "MSY",
+                "icao": "KMSY",
+                "terminal": null,
+                "gate": "C8",
+                "delay": null,
+                "scheduled": "2023-08-14T14:04:00+00:00",
+                "estimated": "2023-08-14T14:04:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "37A",
+                "baggage": "24",
+                "delay": null,
+                "scheduled": "2023-08-14T16:00:00+00:00",
+                "estimated": "2023-08-14T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "6194",
+                "iata": "LA6194",
+                "icao": "LAN6194",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "2355",
+                    "flight_iata": "dl2355",
+                    "flight_icao": "dal2355"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "George Bush Intercontinental",
+                "timezone": "America\/Chicago",
+                "iata": "IAH",
+                "icao": "KIAH",
+                "terminal": "C",
+                "gate": "35",
+                "delay": null,
+                "scheduled": "2023-08-14T14:33:00+00:00",
+                "estimated": "2023-08-14T14:33:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "7",
+                "gate": "70B",
+                "baggage": "1",
+                "delay": null,
+                "scheduled": "2023-08-14T16:00:00+00:00",
+                "estimated": "2023-08-14T16:00:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "1843",
+                "iata": "UA1843",
+                "icao": "UAL1843",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "San Francisco International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SFO",
+                "icao": "KSFO",
+                "terminal": "2",
+                "gate": "D7",
+                "delay": 2,
+                "scheduled": "2023-08-14T07:15:00+00:00",
+                "estimated": "2023-08-14T07:15:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "6",
+                "gate": "69A",
+                "baggage": "T6-6",
+                "delay": null,
+                "scheduled": "2023-08-14T08:55:00+00:00",
+                "estimated": "2023-08-14T08:55:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "LATAM Airlines",
+                "iata": "LA",
+                "icao": "LAN"
+            },
+            "flight": {
+                "number": "5097",
+                "iata": "LA5097",
+                "icao": "LAN5097",
+                "codeshared": {
+                    "airline_name": "alaska airlines",
+                    "airline_iata": "as",
+                    "airline_icao": "asa",
+                    "flight_number": "1308",
+                    "flight_iata": "as1308",
+                    "flight_icao": "asa1308"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Newark Liberty International",
+                "timezone": "America\/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "C",
+                "gate": "96",
+                "delay": null,
+                "scheduled": "2023-08-14T10:30:00+00:00",
+                "estimated": "2023-08-14T10:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "7",
+                "gate": "73",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2023-08-14T13:26:00+00:00",
+                "estimated": "2023-08-14T13:26:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "United Airlines",
+                "iata": "UA",
+                "icao": "UAL"
+            },
+            "flight": {
+                "number": "1745",
+                "iata": "UA1745",
+                "icao": "UAL1745",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Newark Liberty International",
+                "timezone": "America\/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "C",
+                "gate": "96",
+                "delay": null,
+                "scheduled": "2023-08-14T10:30:00+00:00",
+                "estimated": "2023-08-14T10:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "7",
+                "gate": "73",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2023-08-14T13:26:00+00:00",
+                "estimated": "2023-08-14T13:26:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Australia",
+                "iata": "VA",
+                "icao": "VOZ"
+            },
+            "flight": {
+                "number": "8142",
+                "iata": "VA8142",
+                "icao": "VOZ8142",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "1745",
+                    "flight_iata": "ua1745",
+                    "flight_icao": "ual1745"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "active",
+            "departure": {
+                "airport": "Newark Liberty International",
+                "timezone": "America\/New_York",
+                "iata": "EWR",
+                "icao": "KEWR",
+                "terminal": "C",
+                "gate": "96",
+                "delay": null,
+                "scheduled": "2023-08-14T10:30:00+00:00",
+                "estimated": "2023-08-14T10:30:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "7",
+                "gate": "73",
+                "baggage": "3",
+                "delay": null,
+                "scheduled": "2023-08-14T13:26:00+00:00",
+                "estimated": "2023-08-14T13:26:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Air New Zealand",
+                "iata": "NZ",
+                "icao": "ANZ"
+            },
+            "flight": {
+                "number": "9530",
+                "iata": "NZ9530",
+                "icao": "ANZ9530",
+                "codeshared": {
+                    "airline_name": "united airlines",
+                    "airline_iata": "ua",
+                    "airline_icao": "ual",
+                    "flight_number": "1745",
+                    "flight_iata": "ua1745",
+                    "flight_icao": "ual1745"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "A",
+                "gate": "12",
+                "delay": 16,
+                "scheduled": "2023-08-14T12:18:00+00:00",
+                "estimated": "2023-08-14T12:18:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "24",
+                "baggage": "24",
+                "delay": null,
+                "scheduled": "2023-08-14T13:52:00+00:00",
+                "estimated": "2023-08-14T13:52:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Delta Air Lines",
+                "iata": "DL",
+                "icao": "DAL"
+            },
+            "flight": {
+                "number": "3887",
+                "iata": "DL3887",
+                "icao": "DAL3887",
+                "codeshared": null
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "A",
+                "gate": "12",
+                "delay": 16,
+                "scheduled": "2023-08-14T12:18:00+00:00",
+                "estimated": "2023-08-14T12:18:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "24",
+                "baggage": "24",
+                "delay": null,
+                "scheduled": "2023-08-14T13:52:00+00:00",
+                "estimated": "2023-08-14T13:52:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "WestJet",
+                "iata": "WS",
+                "icao": "WJA"
+            },
+            "flight": {
+                "number": "8451",
+                "iata": "WS8451",
+                "icao": "WJA8451",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "3887",
+                    "flight_iata": "dl3887",
+                    "flight_icao": "dal3887"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "A",
+                "gate": "12",
+                "delay": 16,
+                "scheduled": "2023-08-14T12:18:00+00:00",
+                "estimated": "2023-08-14T12:18:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "24",
+                "baggage": "24",
+                "delay": null,
+                "scheduled": "2023-08-14T13:52:00+00:00",
+                "estimated": "2023-08-14T13:52:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "Virgin Atlantic",
+                "iata": "VS",
+                "icao": "VIR"
+            },
+            "flight": {
+                "number": "4130",
+                "iata": "VS4130",
+                "icao": "VIR4130",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "3887",
+                    "flight_iata": "dl3887",
+                    "flight_icao": "dal3887"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "A",
+                "gate": "12",
+                "delay": 16,
+                "scheduled": "2023-08-14T12:18:00+00:00",
+                "estimated": "2023-08-14T12:18:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "24",
+                "baggage": "24",
+                "delay": null,
+                "scheduled": "2023-08-14T13:52:00+00:00",
+                "estimated": "2023-08-14T13:52:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "KLM",
+                "iata": "KL",
+                "icao": "KLM"
+            },
+            "flight": {
+                "number": "6643",
+                "iata": "KL6643",
+                "icao": "KLM6643",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "3887",
+                    "flight_iata": "dl3887",
+                    "flight_icao": "dal3887"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        },
+        {
+            "flight_date": "2023-08-14",
+            "flight_status": "scheduled",
+            "departure": {
+                "airport": "Sacramento International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "SMF",
+                "icao": "KSMF",
+                "terminal": "A",
+                "gate": "12",
+                "delay": 16,
+                "scheduled": "2023-08-14T12:18:00+00:00",
+                "estimated": "2023-08-14T12:18:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "arrival": {
+                "airport": "Los Angeles International",
+                "timezone": "America\/Los_Angeles",
+                "iata": "LAX",
+                "icao": "KLAX",
+                "terminal": "3",
+                "gate": "24",
+                "baggage": "24",
+                "delay": null,
+                "scheduled": "2023-08-14T13:52:00+00:00",
+                "estimated": "2023-08-14T13:52:00+00:00",
+                "actual": null,
+                "estimated_runway": null,
+                "actual_runway": null
+            },
+            "airline": {
+                "name": "China Airlines",
+                "iata": "CI",
+                "icao": "CAL"
+            },
+            "flight": {
+                "number": "9021",
+                "iata": "CI9021",
+                "icao": "CAL9021",
+                "codeshared": {
+                    "airline_name": "delta air lines",
+                    "airline_iata": "dl",
+                    "airline_icao": "dal",
+                    "flight_number": "3887",
+                    "flight_iata": "dl3887",
+                    "flight_icao": "dal3887"
+                }
+            },
+            "aircraft": null,
+            "live": null
+        }
+    ]
+}
