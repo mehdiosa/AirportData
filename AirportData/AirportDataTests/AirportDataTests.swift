@@ -17,7 +17,7 @@ final class AirportDataTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func test_airportData_readArrivalFlightData_arrivalFlightDataShouldBeGreaterThan0() throws {
+    func test_airportData_readArrivalFlightDataWithMockData_arrivalFlightDataShouldBeGreaterThan0() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Any test you write for XCTest can be annotated as throws and async.
@@ -28,6 +28,14 @@ final class AirportDataTests: XCTestCase {
 
         XCTAssertTrue(airportData.arrivalFlightData.data.count > 0)
     }
+
+    func test_airportData_readDepartureFlightDataWithMockData_departureFlightDataShouldBeGreaterThan0() throws {
+        var airportData = AirportData()
+        airportData.readData(forName: "MUC")
+        XCTAssertTrue(airportData.departureFlightData.data.count > 0)
+    }
+
+    // TODO: ADD TESTS FOR REAL API CONNECTION
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
