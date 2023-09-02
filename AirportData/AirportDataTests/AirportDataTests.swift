@@ -37,11 +37,23 @@ final class AirportDataTests: XCTestCase {
     }
 
     func test_airportData_getAllTerminalsForArrivalsWithMockData_arrivalTerminalsShouldBeGreaterThan0() throws {
-        XCTAssertFalse(false)
+        var airportData = AirportData()
+        var allFlightsView = AllFlightsInfoView()
+
+        airportData.readData(forName: "MUC")
+
+        var terminals: [String] = allFlightsView.getTerminals(airportData.arrivalFlightData)
+        XCTAssertNotEqual(terminals, [])
     }
 
     func test_airportData_getAllTerminalsForDeparturesWithMockData_departureTerminalsShouldBeGreaterThan0() throws {
-        XCTAssertFalse(false)
+        var airportData = AirportData()
+        var allFlightsView = AllFlightsInfoView()
+
+        airportData.readData(forName: "MUC")
+
+        var terminals: [String] = allFlightsView.getTerminals(airportData.departureFlightData)
+        XCTAssertNotEqual(terminals, [])
     }
 
     func testPerformanceExample() throws {

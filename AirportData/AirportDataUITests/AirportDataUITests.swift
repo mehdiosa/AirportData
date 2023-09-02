@@ -56,11 +56,21 @@ final class AirportDataUITests: XCTestCase {
     }
 
     func test_arrivalDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {
-        XCTAssertFalse(false)
+        let tabBar = XCUIApplication().tabBars["Tab Bar"]
+        let departureButton = tabBar.buttons["Departures"]
+        
+        XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeRight()
+
+        XCTAssertTrue(departureButton.isSelected)
     }
 
     func test_departureDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {
-        XCTAssertFalse(false)
+        let tabBar = XCUIApplication().tabBars["Tab Bar"]
+        let arrivalButton = tabBar.buttons["Arrival"]
+
+        XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeLeft()
+
+        XCTAssertTrue(arrivalButton.isSelected)
     }
 
     func testLaunchPerformance() throws {
