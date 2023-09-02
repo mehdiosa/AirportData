@@ -7,6 +7,11 @@
 
 import Foundation
 
+struct Flights {
+    var flightInfo: [String: [FlightOverview]]
+    var type: FlightDataType
+}
+
 struct FlightData: Decodable {
     var data: [FlightOverview]
 }
