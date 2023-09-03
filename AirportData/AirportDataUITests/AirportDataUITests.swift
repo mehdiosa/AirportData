@@ -59,8 +59,8 @@ final class AirportDataUITests: XCTestCase {
         let tabBar = XCUIApplication().tabBars["Tab Bar"]
         let departureButton = tabBar.buttons["Departures"]
 
-        XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeRight()
-
+        XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeLeft()
+        // Arrival and Departure Buttons not what should be checked here -> Maybe there is some way to check whether the page did change or if one particular Label is active or something
         XCTAssertTrue(departureButton.isSelected)
     }
 
@@ -69,7 +69,7 @@ final class AirportDataUITests: XCTestCase {
         let arrivalButton = tabBar.buttons["Arrivals"]
 
         XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeLeft()
-
+        // Arrival and Departure Buttons not what should be checked here -> Maybe there is some way to check whether the page did change or if one particular Label is active or something
         XCTAssertTrue(arrivalButton.isSelected)
     }
 
