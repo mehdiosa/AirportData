@@ -1,0 +1,19 @@
+name: Tests
+on:
+  push:
+    branches:
+    - main
+    - feature/*
+  pull_request:
+    branches:
+    - master
+    - feature/*
+jobs:
+  test:
+    name: Testing iOS app
+    runs-on: macOS-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+      - name: Testing iOS app
+        run: exec ./.github/scripts/test_app.sh
