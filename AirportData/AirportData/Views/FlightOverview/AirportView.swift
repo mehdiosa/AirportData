@@ -9,27 +9,50 @@ import SwiftUI
 
 struct AirportView: View {
     @State var airportData: AirportData
-
-//    @State var activeTab: String
-//    @State var activePage: String
-    
+    @State var activeTab: String = "Arrivals"
 
     var body: some View {
         VStack {
             if airportData.isFetching {
                 ProgressView("Loading flight data...").background(Color(UIColor.systemBackground))
             } else {
-                TabView {
+                TabView(selection: $activeTab) {
                     NavigationStack {
-                        TabView {}
-                    }.tabItem { Label("Arrivals", systemImage: "airplane.arrival") }.tag("Arrivals")
+                        AllFlightsInfoView(airportData: airportData, flightType: .arrival)
+                            .toolbar { reloadToolbarItem() }
+                            .toolbarBackground(.hidden, for: .navigationBar)
+                            .navigationTitle(Text(activeTab))
+                            .navigationBarTitleDisplayMode(.inline)
+                    }.tabItem { Label(
+                        "Arrivals", systemImage: "airplane.arrival")
+                    }.tag("Arrivals")
 
                     NavigationStack {
-                        TabView {}
-                    }.tabItem { Label("Departures", systemImage: "airplane.departure") }.tag("Departures")
+                        AllFlightsInfoView(airportData: airportData, flightType: .departure)
+                            .toolbar { reloadToolbarItem() }
+                            .toolbarBackground(.hidden, for: .navigationBar)
+                            .navigationTitle(Text(activeTab))
+                            .navigationBarTitleDisplayMode(.inline)
+                    }
+                    .tabItem { Label(
+                        "Departures", systemImage: "airplane.departure")
+                    }.tag("Departures")
                 }
             }
         }.task { await reloadData() }
+    }
+
+    @ToolbarContentBuilder
+    func reloadToolbarItem() -> some ToolbarContent {
+        ToolbarItem(placement: .navigationBarLeading) {
+            Button {
+                Task {
+                    await reloadData()
+                }
+            } label: {
+                Label("reload", systemImage: "arrow.clockwise")
+            }
+        }
     }
 
     private func reloadData() async {

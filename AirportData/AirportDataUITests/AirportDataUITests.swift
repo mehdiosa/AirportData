@@ -127,7 +127,6 @@ final class AirportDataUITests: XCTestCase {
         let departureButton = XCUIApplication().tabBars["Tab Bar"].buttons["Departures"]
 
         let navigationBarStaticTexts = XCUIApplication().navigationBars.staticTexts.allElementsBoundByIndex
-        let tabBarsStaticTexts = departureButton.staticTexts.allElementsBoundByIndex
 
         // Get data before tapping on Departure Button
         let navigationBarTitleBeforeTap = navigationBarStaticTexts[0].label
@@ -145,7 +144,6 @@ final class AirportDataUITests: XCTestCase {
         let departureButton = XCUIApplication().tabBars["Tab Bar"].buttons["Departures"]
 
         let navigationBarStaticTexts = XCUIApplication().navigationBars.staticTexts.allElementsBoundByIndex
-        let tabBarsStaticTexts = departureButton.staticTexts.allElementsBoundByIndex
 
         // Get data before tapping on Departure Button
         let navigationBarTitleBeforeTap = navigationBarStaticTexts[0].label
@@ -154,6 +152,7 @@ final class AirportDataUITests: XCTestCase {
         departureButton.tap()
 
         // Change back to arrivals tab
+        arrivalButton.tap()
 
         let navigationBarTitleAfterTap = navigationBarStaticTexts[0].label
 
