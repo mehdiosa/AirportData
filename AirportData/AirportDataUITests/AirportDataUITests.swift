@@ -93,11 +93,11 @@ final class AirportDataUITests: XCTestCase {
 
         XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeRight()
         XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeRight()
-        
+
         let staticTextsUIElementsAfterSwipes = XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 4).staticTexts.allElementsBoundByIndex
 
         let staticTextsStringsAfterSwipes = createStringArrayFromXCUIElementArray(staticTextsUIElementsAfterSwipes)
-        
+
         XCTAssertTrue(compareStaticTextsBeforeAndAfterSwipes(staticTextsStringsBeforeSwipes, staticTextsStringsAfterSwipes))
     }
 
@@ -121,6 +121,43 @@ final class AirportDataUITests: XCTestCase {
         let staticTextsStringsAfterSwipes = createStringArrayFromXCUIElementArray(staticTextsUIElementsAfterSwipes)
 
         XCTAssertTrue(compareStaticTextsBeforeAndAfterSwipes(staticTextsStringsBeforeSwipes, staticTextsStringsAfterSwipes))
+    }
+
+    func test_checkIfNavigationBarIsShownAndTitleChangesWhenDepartureTabIsSelected_titleShouldChangeToTheNameOfTheSelectedTab() throws {
+        let departureButton = XCUIApplication().tabBars["Tab Bar"].buttons["Departures"]
+
+        let navigationBarStaticTexts = XCUIApplication().navigationBars.staticTexts.allElementsBoundByIndex
+        let tabBarsStaticTexts = departureButton.staticTexts.allElementsBoundByIndex
+
+        // Get data before tapping on Departure Button
+        let navigationBarTitleBeforeTap = navigationBarStaticTexts[0].label
+
+        // Change to departure Tab
+        departureButton.tap()
+
+        let navigationBarTitleAfterTap = navigationBarStaticTexts[0].label
+
+        XCTAssertNotEqual(navigationBarTitleBeforeTap, navigationBarTitleAfterTap)
+    }
+
+    func test_checkIfNavigationBarIsShownAndTitleChangesWhenArrivalTabIsSelected_titleShouldChangeToTheNameOfTheSelectedTab() throws {
+        let arrivalButton = XCUIApplication().tabBars["Tab Bar"].buttons["Arrivals"]
+        let departureButton = XCUIApplication().tabBars["Tab Bar"].buttons["Departures"]
+
+        let navigationBarStaticTexts = XCUIApplication().navigationBars.staticTexts.allElementsBoundByIndex
+        let tabBarsStaticTexts = departureButton.staticTexts.allElementsBoundByIndex
+
+        // Get data before tapping on Departure Button
+        let navigationBarTitleBeforeTap = navigationBarStaticTexts[0].label
+
+        // Change to departure Tab
+        departureButton.tap()
+
+        // Change back to arrivals tab
+
+        let navigationBarTitleAfterTap = navigationBarStaticTexts[0].label
+
+        XCTAssertEqual(navigationBarTitleBeforeTap, navigationBarTitleAfterTap)
     }
 
     func testLaunchPerformance() throws {
