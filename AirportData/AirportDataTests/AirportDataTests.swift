@@ -11,6 +11,12 @@ import XCTest
 final class AirportDataTests: XCTestCase {
     let mockAiportArrivalData: [FlightOverview] = [
         FlightOverview(
+            flightStatus: FlightStatus.active,
+            departure: FlightInfo(airport: "Heathrow", iata: "LHR", terminal: "5", gate: "A11", scheduled: "2023-08-14T14:45:00+00:00", estimated: "2023-08-14T14:45:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "1", gate: nil, scheduled: "2023-08-14T17:45:00+00:00", estimated: "2023-08-14T17:45:00+00:00"),
+            airline: Airline(name: "American Airlines"),
+            flight: Flight(iata: "AA6729", codeshared: Codeshared(airlineName: "british airways", airlineIata: "ba", airlineIcao: "baw", flightNumber: "960", flightIata: "ba960", flightIcao: "baw960"))),
+        FlightOverview(
             flightStatus: FlightStatus.scheduled,
             departure: FlightInfo(airport: "Taiwan Taoyuan International (Chiang Kai Shek International)", iata: "TPE", terminal: nil, gate: nil, scheduled: "2023-08-15T00:05:00+00:00", estimated: "2023-08-15T00:05:00+00:00"),
             arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: nil, gate: nil, scheduled: "2023-08-15T06:49:00+00:00", estimated: "2023-08-15T06:49:00+00:00"),
@@ -41,6 +47,158 @@ final class AirportDataTests: XCTestCase {
             airline: Airline(name: "Oman Air"),
             flight: Flight(iata: "WY5013",
                            codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "1803", flightIata: "lh1803", flightIcao: "dlh1803")))
+    ]
+
+    let mockAiportArrivalDataSortedByArrivalTime: [FlightOverview] = [
+        FlightOverview(
+            flightStatus: FlightStatus.active,
+            departure: FlightInfo(airport: "Heathrow", iata: "LHR", terminal: "5", gate: "A11", scheduled: "2023-08-14T14:45:00+00:00", estimated: "2023-08-14T14:45:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "1", gate: nil, scheduled: "2023-08-14T17:45:00+00:00", estimated: "2023-08-14T17:45:00+00:00"),
+            airline: Airline(name: "American Airlines"),
+            flight: Flight(iata: "AA6729", codeshared: Codeshared(airlineName: "british airways", airlineIata: "ba", airlineIcao: "baw", flightNumber: "960", flightIata: "ba960", flightIcao: "baw960"))),
+        FlightOverview(
+            flightStatus: FlightStatus.active,
+            departure: FlightInfo(airport: "Barajas", iata: "MAD", terminal: "2", gate: "D66", scheduled: "2023-08-14T15:25:00+00:00", estimated: "2023-08-14T15:25:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "K27", scheduled: "2023-08-14T17:55:00+00:00", estimated: "2023-08-14T17:55:00+00:00"),
+            airline: Airline(name: "Oman Air"),
+            flight: Flight(iata: "WY5013",
+                           codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "1803", flightIata: "lh1803", flightIcao: "dlh1803"))),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Indira Gandhi International", iata: "DEL", terminal: "3", gate: "10", scheduled: "2023-08-15T01:10:00+00:00", estimated: "2023-08-15T01:10:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "M15", scheduled: "2023-08-15T05:55:00+00:00", estimated: "2023-08-15T05:55:00+00:00"),
+            airline: Airline(name: "Lufthanse"),
+            flight: Flight(iata: "LH763", codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "763", flightIata: "lh763", flightIcao: "dlh763"))),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Beijing Capital International", iata: "PEK", terminal: "3", gate: nil, scheduled: "2023-08-15T02:00:00+00:00", estimated: "2023-08-15T02:00:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "I44", scheduled: "2023-08-15T06:20:00+00:00", estimated: "2023-08-15T06:20:00+00:00"),
+            airline: Airline(name: "Air Chine LTD"),
+            flight: Flight(iata: "CA961", codeshared: Codeshared(airlineName: "air china ltd", airlineIata: "ca", airlineIcao: "cca", flightNumber: "961", flightIata: "ca961", flightIcao: "cca961"))),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Taiwan Taoyuan International (Chiang Kai Shek International)", iata: "TPE", terminal: nil, gate: nil, scheduled: "2023-08-15T00:05:00+00:00", estimated: "2023-08-15T00:05:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: nil, gate: nil, scheduled: "2023-08-15T06:49:00+00:00", estimated: "2023-08-15T06:49:00+00:00"),
+            airline: Airline(name: "EVA Air"),
+            flight: Flight(iata: "BR71", codeshared: nil)),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Singapore Changi", iata: "SIN", terminal: "3", gate: "B4", scheduled: "2023-08-15T00:30:00+00:00", estimated: "2023-08-15T00:30:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "H44", scheduled: "2023-08-15T06:55:00+00:00", estimated: "2023-08-15T06:55:00+00:00"),
+            airline: Airline(name: "Singapore Airlines"),
+            flight: Flight(iata: "SQ328", codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "791", flightIata: "lh791", flightIcao: "dlh791")))
+    ]
+
+    let mockAiportArrivalDataSortedByDepartureTime: [FlightOverview] = [
+        FlightOverview(
+            flightStatus: FlightStatus.active,
+            departure: FlightInfo(airport: "Heathrow", iata: "LHR", terminal: "5", gate: "A11", scheduled: "2023-08-14T14:45:00+00:00", estimated: "2023-08-14T14:45:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "1", gate: nil, scheduled: "2023-08-14T17:45:00+00:00", estimated: "2023-08-14T17:45:00+00:00"),
+            airline: Airline(name: "American Airlines"),
+            flight: Flight(iata: "AA6729", codeshared: Codeshared(airlineName: "british airways", airlineIata: "ba", airlineIcao: "baw", flightNumber: "960", flightIata: "ba960", flightIcao: "baw960"))),
+        FlightOverview(
+            flightStatus: FlightStatus.active,
+            departure: FlightInfo(airport: "Barajas", iata: "MAD", terminal: "2", gate: "D66", scheduled: "2023-08-14T15:25:00+00:00", estimated: "2023-08-14T15:25:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "K27", scheduled: "2023-08-14T17:55:00+00:00", estimated: "2023-08-14T17:55:00+00:00"),
+            airline: Airline(name: "Oman Air"),
+            flight: Flight(iata: "WY5013",
+                           codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "1803", flightIata: "lh1803", flightIcao: "dlh1803"))),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Taiwan Taoyuan International (Chiang Kai Shek International)", iata: "TPE", terminal: nil, gate: nil, scheduled: "2023-08-15T00:05:00+00:00", estimated: "2023-08-15T00:05:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: nil, gate: nil, scheduled: "2023-08-15T06:49:00+00:00", estimated: "2023-08-15T06:49:00+00:00"),
+            airline: Airline(name: "EVA Air"),
+            flight: Flight(iata: "BR71", codeshared: nil)),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Singapore Changi", iata: "SIN", terminal: "3", gate: "B4", scheduled: "2023-08-15T00:30:00+00:00", estimated: "2023-08-15T00:30:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "H44", scheduled: "2023-08-15T06:55:00+00:00", estimated: "2023-08-15T06:55:00+00:00"),
+            airline: Airline(name: "Singapore Airlines"),
+            flight: Flight(iata: "SQ328", codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "791", flightIata: "lh791", flightIcao: "dlh791"))),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Indira Gandhi International", iata: "DEL", terminal: "3", gate: "10", scheduled: "2023-08-15T01:10:00+00:00", estimated: "2023-08-15T01:10:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "M15", scheduled: "2023-08-15T05:55:00+00:00", estimated: "2023-08-15T05:55:00+00:00"),
+            airline: Airline(name: "Lufthanse"),
+            flight: Flight(iata: "LH763", codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "763", flightIata: "lh763", flightIcao: "dlh763"))),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Beijing Capital International", iata: "PEK", terminal: "3", gate: nil, scheduled: "2023-08-15T02:00:00+00:00", estimated: "2023-08-15T02:00:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "I44", scheduled: "2023-08-15T06:20:00+00:00", estimated: "2023-08-15T06:20:00+00:00"),
+            airline: Airline(name: "Air Chine LTD"),
+            flight: Flight(iata: "CA961", codeshared: Codeshared(airlineName: "air china ltd", airlineIata: "ca", airlineIcao: "cca", flightNumber: "961", flightIata: "ca961", flightIcao: "cca961")))
+    ]
+
+    let mockAirportArrivalDataSortedByTerminal: [String: [FlightOverview]] = [
+        "": [
+            FlightOverview(
+                flightStatus: FlightStatus.active,
+                departure: FlightInfo(airport: "Heathrow", iata: "LHR", terminal: "5", gate: "A11", scheduled: "2023-08-14T14:45:00+00:00", estimated: "2023-08-14T14:45:00+00:00"),
+                arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "1", gate: nil, scheduled: "2023-08-14T17:45:00+00:00", estimated: "2023-08-14T17:45:00+00:00"),
+                airline: Airline(name: "American Airlines"),
+                flight: Flight(iata: "AA6729", codeshared: Codeshared(airlineName: "british airways", airlineIata: "ba", airlineIcao: "baw", flightNumber: "960", flightIata: "ba960", flightIcao: "baw960"))),
+            FlightOverview(
+                flightStatus: FlightStatus.scheduled,
+                departure: FlightInfo(airport: "Taiwan Taoyuan International (Chiang Kai Shek International)", iata: "TPE", terminal: nil, gate: nil, scheduled: "2023-08-15T00:05:00+00:00", estimated: "2023-08-15T00:05:00+00:00"),
+                arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: nil, gate: nil, scheduled: "2023-08-15T06:49:00+00:00", estimated: "2023-08-15T06:49:00+00:00"),
+                airline: Airline(name: "EVA Air"),
+                flight: Flight(iata: "BR71", codeshared: nil)),
+            FlightOverview(
+                flightStatus: FlightStatus.scheduled,
+                departure: FlightInfo(airport: "Indira Gandhi International", iata: "DEL", terminal: "3", gate: "10", scheduled: "2023-08-15T01:10:00+00:00", estimated: "2023-08-15T01:10:00+00:00"),
+                arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "M15", scheduled: "2023-08-15T05:55:00+00:00", estimated: "2023-08-15T05:55:00+00:00"),
+                airline: Airline(name: "Lufthanse"),
+                flight: Flight(iata: "LH763", codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "763", flightIata: "lh763", flightIcao: "dlh763"))),
+            FlightOverview(
+                flightStatus: FlightStatus.scheduled,
+                departure: FlightInfo(airport: "Beijing Capital International", iata: "PEK", terminal: "3", gate: nil, scheduled: "2023-08-15T02:00:00+00:00", estimated: "2023-08-15T02:00:00+00:00"),
+                arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "I44", scheduled: "2023-08-15T06:20:00+00:00", estimated: "2023-08-15T06:20:00+00:00"),
+                airline: Airline(name: "Air Chine LTD"),
+                flight: Flight(iata: "CA961", codeshared: Codeshared(airlineName: "air china ltd", airlineIata: "ca", airlineIcao: "cca", flightNumber: "961", flightIata: "ca961", flightIcao: "cca961"))),
+            FlightOverview(
+                flightStatus: FlightStatus.scheduled,
+                departure: FlightInfo(airport: "Singapore Changi", iata: "SIN", terminal: "3", gate: "B4", scheduled: "2023-08-15T00:30:00+00:00", estimated: "2023-08-15T00:30:00+00:00"),
+                arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "H44", scheduled: "2023-08-15T06:55:00+00:00", estimated: "2023-08-15T06:55:00+00:00"),
+                airline: Airline(name: "Singapore Airlines"),
+                flight: Flight(iata: "SQ328", codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "791", flightIata: "lh791", flightIcao: "dlh791"))),
+            FlightOverview(
+                flightStatus: FlightStatus.active,
+                departure: FlightInfo(airport: "Barajas", iata: "MAD", terminal: "2", gate: "D66", scheduled: "2023-08-14T15:25:00+00:00", estimated: "2023-08-14T15:25:00+00:00"),
+                arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "K27", scheduled: "2023-08-14T17:55:00+00:00", estimated: "2023-08-14T17:55:00+00:00"),
+                airline: Airline(name: "Oman Air"),
+                flight: Flight(iata: "WY5013",
+                               codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "1803", flightIata: "lh1803", flightIcao: "dlh1803")))],
+        "1": [FlightOverview(
+            flightStatus: FlightStatus.active,
+            departure: FlightInfo(airport: "Heathrow", iata: "LHR", terminal: "5", gate: "A11", scheduled: "2023-08-14T14:45:00+00:00", estimated: "2023-08-14T14:45:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "1", gate: nil, scheduled: "2023-08-14T17:45:00+00:00", estimated: "2023-08-14T17:45:00+00:00"),
+            airline: Airline(name: "American Airlines"),
+            flight: Flight(iata: "AA6729", codeshared: Codeshared(airlineName: "british airways", airlineIata: "ba", airlineIcao: "baw", flightNumber: "960", flightIata: "ba960", flightIcao: "baw960")))],
+        "2": [FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Indira Gandhi International", iata: "DEL", terminal: "3", gate: "10", scheduled: "2023-08-15T01:10:00+00:00", estimated: "2023-08-15T01:10:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "M15", scheduled: "2023-08-15T05:55:00+00:00", estimated: "2023-08-15T05:55:00+00:00"),
+            airline: Airline(name: "Lufthanse"),
+            flight: Flight(iata: "LH763", codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "763", flightIata: "lh763", flightIcao: "dlh763"))),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Beijing Capital International", iata: "PEK", terminal: "3", gate: nil, scheduled: "2023-08-15T02:00:00+00:00", estimated: "2023-08-15T02:00:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "I44", scheduled: "2023-08-15T06:20:00+00:00", estimated: "2023-08-15T06:20:00+00:00"),
+            airline: Airline(name: "Air Chine LTD"),
+            flight: Flight(iata: "CA961", codeshared: Codeshared(airlineName: "air china ltd", airlineIata: "ca", airlineIcao: "cca", flightNumber: "961", flightIata: "ca961", flightIcao: "cca961"))),
+        FlightOverview(
+            flightStatus: FlightStatus.scheduled,
+            departure: FlightInfo(airport: "Singapore Changi", iata: "SIN", terminal: "3", gate: "B4", scheduled: "2023-08-15T00:30:00+00:00", estimated: "2023-08-15T00:30:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "H44", scheduled: "2023-08-15T06:55:00+00:00", estimated: "2023-08-15T06:55:00+00:00"),
+            airline: Airline(name: "Singapore Airlines"),
+            flight: Flight(iata: "SQ328", codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "791", flightIata: "lh791", flightIcao: "dlh791"))),
+        FlightOverview(
+            flightStatus: FlightStatus.active,
+            departure: FlightInfo(airport: "Barajas", iata: "MAD", terminal: "2", gate: "D66", scheduled: "2023-08-14T15:25:00+00:00", estimated: "2023-08-14T15:25:00+00:00"),
+            arrival: FlightInfo(airport: "Franz Josef Strauss", iata: "MUC", terminal: "2", gate: "K27", scheduled: "2023-08-14T17:55:00+00:00", estimated: "2023-08-14T17:55:00+00:00"),
+            airline: Airline(name: "Oman Air"),
+            flight: Flight(iata: "WY5013",
+                           codeshared: Codeshared(airlineName: "lufthansa", airlineIata: "lh", airlineIcao: "dlh", flightNumber: "1803", flightIata: "lh1803", flightIcao: "dlh1803")))]
     ]
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -73,21 +231,21 @@ final class AirportDataTests: XCTestCase {
         let airportData = AirportData()
         let sortedMockFlightData = airportData.sortFlightsByTerminal(mockAiportArrivalData, type: .arrival)
 
-        XCTAssertNotEqual(sortedMockFlightData, mockAiportArrivalData)
+        XCTAssertEqual(sortedMockFlightData, mockAirportArrivalDataSortedByTerminal)
     }
 
     func test_airportData_checkIfFlightDataIsSortedByScheduledArrivalTime_flightDataShouldBeSortedByArrivalTime() throws {
         let airportData = AirportData()
         let sortedMockFlightData = airportData.sortFlightsByTime(mockAiportArrivalData, type: .arrival)
 
-        XCTAssertEqual(sortedMockFlightData, mockAiportArrivalData.sorted(by: { $0.arrival.scheduled! < $1.arrival.scheduled! }))
+        XCTAssertEqual(sortedMockFlightData, mockAiportArrivalDataSortedByArrivalTime)
     }
 
     func test_airportData_checkIfFlightDataIsSortedByScheduledDepartureTime_flightDataShouldBeSortedByDepartureTime() throws {
         let airportData = AirportData()
         let sortedMockFlightData = airportData.sortFlightsByTime(mockAiportArrivalData, type: .departure)
 
-        XCTAssertEqual(sortedMockFlightData, mockAiportArrivalData.sorted(by: { $0.departure.scheduled! < $1.departure.scheduled! }))
+        XCTAssertEqual(sortedMockFlightData, mockAiportArrivalDataSortedByDepartureTime)
     }
 
     func test_airportData_checkIfFlightDataEntryForAllFlightsIsCreated_flightDataForAllFlightsShouldBeCreated() throws {}

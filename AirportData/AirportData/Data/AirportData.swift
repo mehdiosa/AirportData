@@ -24,8 +24,6 @@ struct AirportData {
                 let resourceName = name + flightType.rawValue.capitalized
                 if let bundlePath = Bundle.main.path(forResource: resourceName, ofType: "json"), let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8) {
                     let flightData = try JSONDecoder().decode(FlightData.self, from: jsonData)
-                    
-//                    print(flightData)
 
                     let filteredflightData = flightData.data.unique()
 

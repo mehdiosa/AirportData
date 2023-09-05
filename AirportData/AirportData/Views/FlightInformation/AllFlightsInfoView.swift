@@ -45,7 +45,6 @@ struct AllFlightsInfoView: View {
                                 terminal: self.flightType == .arrival ? flight.arrival.terminal ?? "" : flight.departure.terminal ?? "")
                         }
                     }
-                    .tabItem { Label(terminal, systemImage: "airplane.arrival") }.tag(terminal)
                 }
             }
             .tabViewStyle(.page).indexViewStyle(.page(backgroundDisplayMode: .never))
