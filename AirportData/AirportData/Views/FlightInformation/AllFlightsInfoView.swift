@@ -25,13 +25,13 @@ struct AllFlightsInfoView: View {
         }
     }
 
-    // TODO: Create View that shows ALL flights so flights without a terminal yet are displayed somewher ("TBA Flights")
+    // TODO: Create View that shows ALL flights so flights without a terminal yet are displayed somewhere ("TBA Flights")
 
     var body: some View {
         if self.flightData.flightInfo.keys.count <= 0 {
             FlightDataView(airline: "", departureCity: "", flightNumber: "", status: FlightStatus.noStatus, plannedTime: "", expectedTime: "", terminal: "")
         } else {
-            TabView(selection: $activePage) {
+            TabView(selection: self.$activePage) {
                 ForEach(Array(self.flightData.flightInfo.keys).sorted(by: <), id: \.self) { terminal in
                     List {
                         ForEach(self.flightData.flightInfo[terminal]!, id: \.self) { flight in
@@ -63,11 +63,11 @@ struct AllFlightsInfoView: View {
     func createQuickNavButtons(_ availableTerminals: [String]) -> some ToolbarContent {
         ToolbarItemGroup(placement: .status) {
             ForEach(availableTerminals, id: \.self) { terminal in
-                Button(action: { activePage = terminal }) {
+                Button(action: { self.activePage = terminal }) {
                     Label(terminal,
                           systemImage:
-                          terminal == "" ? activePage == terminal ? "airplane.circle.fill" : "airplane.circle" :
-                              activePage == terminal ? "\(terminal).circle.fill" : "\(terminal).circle")
+                          terminal == "" ? self.activePage == terminal ? "airplane.circle.fill" : "airplane.circle" :
+                              self.activePage == terminal ? "\(terminal).circle.fill" : "\(terminal).circle")
                 }
             }
         }
@@ -89,35 +89,35 @@ struct AllFlightsInfoView_Previews: PreviewProvider {
     static var previews: some View {
         AllFlightsInfoView(airportData:
             AirportData(
-                arrivalFlightData: ["1":
-                    [FlightOverview(
-                        flightDate: "2023-08-15",
-                        flightStatus: FlightStatus.scheduled,
-                        departure: FlightInfo(
-                            airport: "Mikonos",
-                            iata: "JMK",
-                            terminal: "1",
-                            gate: "TestGate",
-                            scheduled: "2023-08-14T19:03:00+00:00",
-                            estimated: "2023-08-14T19:00:00+00:00"),
-                        arrival: FlightInfo(
-                            airport: "Franz Josef Strauss",
-                            iata: "MUC",
-                            terminal: "1",
-                            gate: "k3",
-                            scheduled: "2023-08-14T20:40:00+00:00",
-                            estimated: "2023-08-14T20:40:00+00:00"),
-                        airline: Airline(
-                            name: "Eurowings Discover"),
-                        flight: Flight(
-                            iata: "4Y2533",
-                            codeshared: Codeshared(
-                                airlineName: "lufthansa",
-                                airlineIata: "lh",
-                                airlineIcao: "dlh",
-                                flightNumber: "1947",
-                                flightIata: "lh1947",
-                                flightIcao: "dlh1947")))],
+                arrivalFlightData: Flights(flightInfo: ["1":
+                        [FlightOverview(
+                            flightDate: "2023-08-15",
+                            flightStatus: FlightStatus.scheduled,
+                            departure: FlightInfo(
+                                airport: "Mikonos",
+                                iata: "JMK",
+                                terminal: "1",
+                                gate: "TestGate",
+                                scheduled: "2023-08-14T19:03:00+00:00",
+                                estimated: "2023-08-14T19:00:00+00:00"),
+                            arrival: FlightInfo(
+                                airport: "Franz Josef Strauss",
+                                iata: "MUC",
+                                terminal: "1",
+                                gate: "k3",
+                                scheduled: "2023-08-14T20:40:00+00:00",
+                                estimated: "2023-08-14T20:40:00+00:00"),
+                            airline: Airline(
+                                name: "Eurowings Discover"),
+                            flight: Flight(
+                                iata: "4Y2533",
+                                codeshared: Codeshared(
+                                    airlineName: "lufthansa",
+                                    airlineIata: "lh",
+                                    airlineIcao: "dlh",
+                                    flightNumber: "1947",
+                                    flightIata: "lh1947",
+                                    flightIcao: "dlh1947")))],
                     "2": [FlightOverview(
                         flightDate: "2023-08-15",
                         flightStatus: FlightStatus.scheduled,
@@ -174,36 +174,36 @@ struct AllFlightsInfoView_Previews: PreviewProvider {
                                 airlineIcao: "dlh",
                                 flightNumber: "1951",
                                 flightIata: "lh1947",
-                                flightIcao: "dlh1947")))]],
-                departureFlightData: ["1":
-                    [FlightOverview(
-                        flightDate: "2023-08-15",
-                        flightStatus: FlightStatus.scheduled,
-                        departure: FlightInfo(
-                            airport: "Mikonos",
-                            iata: "JMK",
-                            terminal: "1",
-                            gate: "TestGate",
-                            scheduled: "2023-08-14T19:03:00+00:00",
-                            estimated: "2023-08-14T19:00:00+00:00"),
-                        arrival: FlightInfo(
-                            airport: "Franz Josef Strauss",
-                            iata: "MUC",
-                            terminal: "1",
-                            gate: "k3",
-                            scheduled: "2023-08-14T20:40:00+00:00",
-                            estimated: "2023-08-14T20:40:00+00:00"),
-                        airline: Airline(
-                            name: "Eurowings Discover"),
-                        flight: Flight(
-                            iata: "4Y2533",
-                            codeshared: Codeshared(
-                                airlineName: "lufthansa",
-                                airlineIata: "lh",
-                                airlineIcao: "dlh",
-                                flightNumber: "1947",
-                                flightIata: "lh1947",
-                                flightIcao: "dlh1947")))],
+                                flightIcao: "dlh1947")))]], type: .arrival),
+                departureFlightData: Flights(flightInfo: ["1":
+                        [FlightOverview(
+                            flightDate: "2023-08-15",
+                            flightStatus: FlightStatus.scheduled,
+                            departure: FlightInfo(
+                                airport: "Mikonos",
+                                iata: "JMK",
+                                terminal: "1",
+                                gate: "TestGate",
+                                scheduled: "2023-08-14T19:03:00+00:00",
+                                estimated: "2023-08-14T19:00:00+00:00"),
+                            arrival: FlightInfo(
+                                airport: "Franz Josef Strauss",
+                                iata: "MUC",
+                                terminal: "1",
+                                gate: "k3",
+                                scheduled: "2023-08-14T20:40:00+00:00",
+                                estimated: "2023-08-14T20:40:00+00:00"),
+                            airline: Airline(
+                                name: "Eurowings Discover"),
+                            flight: Flight(
+                                iata: "4Y2533",
+                                codeshared: Codeshared(
+                                    airlineName: "lufthansa",
+                                    airlineIata: "lh",
+                                    airlineIcao: "dlh",
+                                    flightNumber: "1947",
+                                    flightIata: "lh1947",
+                                    flightIcao: "dlh1947")))],
                     "2": [FlightOverview(
                         flightDate: "2023-08-15",
                         flightStatus: FlightStatus.scheduled,
@@ -260,7 +260,7 @@ struct AllFlightsInfoView_Previews: PreviewProvider {
                                 airlineIcao: "dlh",
                                 flightNumber: "1951",
                                 flightIata: "lh1947",
-                                flightIcao: "dlh1947")))]]),
+                                flightIcao: "dlh1947")))]], type: .departure)),
             flightType: .arrival)
 
 //

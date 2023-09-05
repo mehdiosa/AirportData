@@ -55,22 +55,31 @@ final class AirportDataUITests: XCTestCase {
         XCTAssertTrue(firstElementInList.exists)
     }
 
-    func test_arrivalDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {
-        let tabBar = XCUIApplication().tabBars["Tab Bar"]
-        let departureButton = tabBar.buttons["Departures"]
+    func test_arrivalDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossibleAndOnlySpecificTerminalDataIsShown() throws {
+        let arrivalButton = XCUIApplication().tabBars["Tab Bar"].buttons["Arrivals"]
 
         XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeLeft()
-        // Arrival and Departure Buttons not what should be checked here -> Maybe there is some way to check whether the page did change or if one particular Label is active or something
-        XCTAssertTrue(departureButton.isSelected)
+        let terminal1Check = checkTerminalPageData(terminal: "1")
+        XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeLeft()
+        let terminal2Check = checkTerminalPageData(terminal: "2")
+
+        let dataResult = terminal1Check && terminal2Check
+
+        XCTAssertTrue(dataResult && arrivalButton.isSelected)
     }
 
-    func test_departureDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossible() throws {
-        let tabBar = XCUIApplication().tabBars["Tab Bar"]
-        let arrivalButton = tabBar.buttons["Arrivals"]
+    func test_departureDataSwipeBetweenTerminals_swipingBetweenTerminalsIsPossibleAndOnlySpecificTerminalDataIsShown() throws {
+        let departureButton = XCUIApplication().tabBars["Tab Bar"].buttons["Departures"]
+        departureButton.tap()
 
         XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeLeft()
-        // Arrival and Departure Buttons not what should be checked here -> Maybe there is some way to check whether the page did change or if one particular Label is active or something
-        XCTAssertTrue(arrivalButton.isSelected)
+        let terminal1Check = checkTerminalPageData(terminal: "1")
+        XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeLeft()
+        let terminal2Check = checkTerminalPageData(terminal: "2")
+
+        let dataResult = terminal1Check && terminal2Check
+
+        XCTAssertTrue(dataResult && departureButton.isSelected)
     }
 
     func testLaunchPerformance() throws {
@@ -80,5 +89,21 @@ final class AirportDataUITests: XCTestCase {
                 XCUIApplication().launch()
             }
         }
+    }
+
+    func checkTerminalPageData(terminal: String) -> Bool {
+        let cells = XCUIApplication().collectionViews.descendants(matching: .cell).allElementsBoundByIndex
+
+        for var i in 0 ... 3 {
+            for e in cells {
+                if !e.staticTexts["Terminal: \(terminal)"].exists {
+                    // Something else than terminal text was found
+                    return false
+                }
+            }
+            XCUIApplication().collectionViews.children(matching: .cell).element(boundBy: 0).swipeUp()
+            i += 1
+        }
+        return true
     }
 }

@@ -12,9 +12,9 @@ struct AirportData {
     var departureFlightData: Flights = .init(flightInfo: [:], type: .departure)
     var isFetching: Bool
 
-    init(arrivalFlightData: [String: [FlightOverview]] = [String: [FlightOverview]](), departureFlightData: [String: [FlightOverview]] = [String: [FlightOverview]](), _ isFetching: Bool = true) {
-        self.arrivalFlightData.flightInfo = arrivalFlightData
-        self.departureFlightData.flightInfo = departureFlightData
+    init(arrivalFlightData: Flights = Flights(flightInfo: [:], type: .arrival), departureFlightData: Flights = Flights(flightInfo: [:], type: .departure), _ isFetching: Bool = true) {
+        self.arrivalFlightData = arrivalFlightData
+        self.departureFlightData = departureFlightData
         self.isFetching = isFetching
     }
 
@@ -24,6 +24,8 @@ struct AirportData {
                 let resourceName = name + flightType.rawValue.capitalized
                 if let bundlePath = Bundle.main.path(forResource: resourceName, ofType: "json"), let jsonData = try String(contentsOfFile: bundlePath).data(using: .utf8) {
                     let flightData = try JSONDecoder().decode(FlightData.self, from: jsonData)
+                    
+//                    print(flightData)
 
                     let filteredflightData = flightData.data.unique()
 
@@ -57,31 +59,17 @@ struct AirportData {
 
     func sortFlightsByTerminal(_ flightData: [FlightOverview], type: FlightDataType) -> [String: [FlightOverview]] {
         var sortedFlights: [String: [FlightOverview]] = [:]
-        var terminals: [String] = self.getTerminals(flightData, type: type)
-    
-        // TODO: ADD ALL FLIGHTS TO ANOTHER (ARTIFICIAL) TERMINAL SO THEY CAN BE DISPLAYED AS THE FIRST PAGE
-        terminals.append("allFlights")
 
-        for _ in terminals {
-            if type == .arrival {
-                sortedFlights = Dictionary(grouping: flightData, by: { $0.arrival.terminal ?? "" })
-            } else if type == .departure {
-                sortedFlights = Dictionary(grouping: flightData, by: { $0.departure.terminal ?? "" })
-            }
+        if type == .arrival {
+            sortedFlights = Dictionary(grouping: flightData, by: { $0.arrival.terminal ?? "" })
+        } else if type == .departure {
+            sortedFlights = Dictionary(grouping: flightData, by: { $0.departure.terminal ?? "" })
         }
+
+        // Add all flights with empty string key -> This way data of all flights is added where only flights that do not have an terminal assigned yet would have been AND made sure that overview over all flights is ALWAYS the first page as empty string is sorted as first
+        sortedFlights[""] = flightData
 
         return sortedFlights
-    }
-
-    func getTerminals(_ flightData: [FlightOverview], type: FlightDataType) -> [String] {
-        var uniqueTerminals: Set<String> = []
-        if type == .arrival {
-            uniqueTerminals = flightData.reduce(into: Set<String>()) { $0.insert($1.arrival.terminal ?? "") }
-        } else if type == .departure {
-            uniqueTerminals = flightData.reduce(into: Set<String>()) { $0.insert($1.departure.terminal ?? "") }
-        }
-
-        return uniqueTerminals.sorted()
     }
 }
 
