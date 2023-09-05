@@ -25,8 +25,6 @@ struct AllFlightsInfoView: View {
         }
     }
 
-    // TODO: Create View that shows ALL flights so flights without a terminal yet are displayed somewhere ("TBA Flights")
-
     var body: some View {
         if self.flightData.flightInfo.keys.count <= 0 {
             FlightDataView(airline: "", departureCity: "", flightNumber: "", status: FlightStatus.noStatus, plannedTime: "", expectedTime: "", terminal: "")
@@ -53,8 +51,6 @@ struct AllFlightsInfoView: View {
                 self.createQuickNavButtons(Array(self.flightData.flightInfo.keys).sorted(by: <))
             }
             .toolbarBackground(.hidden, for: .tabBar)
-            .navigationTitle(Text("TEST"))
-            .navigationBarTitleDisplayMode(.inline)
         }
     }
 

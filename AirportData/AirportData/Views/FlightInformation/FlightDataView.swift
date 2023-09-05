@@ -34,7 +34,6 @@ struct FlightDataView: View {
         }
     }
 
-    // TODO: Change colors for more consistent output
     private func setStatusColor(status: FlightStatus) -> Color {
         switch status {
         case .scheduled: return Color.black
