@@ -21,7 +21,6 @@
 		9126EA2C2A8A31AC0093C2A2 /* JFKArrival.json in Resources */ = {isa = PBXBuildFile; fileRef = 9126EA292A8A31AC0093C2A2 /* JFKArrival.json */; };
 		9126EA302A8A39400093C2A2 /* FlightDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA2F2A8A39400093C2A2 /* FlightDataView.swift */; };
 		9126EA342A8A39590093C2A2 /* AllFlightsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA332A8A39590093C2A2 /* AllFlightsInfoView.swift */; };
-		9126EA382A8A39680093C2A2 /* TerminalsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9126EA372A8A39680093C2A2 /* TerminalsInfoView.swift */; };
 		91B3B9E42A8A767C00DAAF2B /* MUCDeparture.json in Resources */ = {isa = PBXBuildFile; fileRef = 91B3B9E12A8A767C00DAAF2B /* MUCDeparture.json */; };
 		91B3B9E52A8A767C00DAAF2B /* MUCDeparture.json in Resources */ = {isa = PBXBuildFile; fileRef = 91B3B9E12A8A767C00DAAF2B /* MUCDeparture.json */; };
 		91B3B9E62A8A767C00DAAF2B /* MUCDeparture.json in Resources */ = {isa = PBXBuildFile; fileRef = 91B3B9E12A8A767C00DAAF2B /* MUCDeparture.json */; };
@@ -31,6 +30,7 @@
 		91B3B9EA2A8A767C00DAAF2B /* LAXDeparture.json in Resources */ = {isa = PBXBuildFile; fileRef = 91B3B9E32A8A767C00DAAF2B /* LAXDeparture.json */; };
 		91B3B9EB2A8A767C00DAAF2B /* LAXDeparture.json in Resources */ = {isa = PBXBuildFile; fileRef = 91B3B9E32A8A767C00DAAF2B /* LAXDeparture.json */; };
 		91B3B9EC2A8A767C00DAAF2B /* LAXDeparture.json in Resources */ = {isa = PBXBuildFile; fileRef = 91B3B9E32A8A767C00DAAF2B /* LAXDeparture.json */; };
+		91B4CB7F2AA252AB005BA5B3 /* AirportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B4CB7E2AA252AB005BA5B3 /* AirportView.swift */; };
 		91DD8D4F2A850FB0006A06BC /* AirportData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DD8D4E2A850FB0006A06BC /* AirportData.swift */; };
 		91DD8D552A8554F0006A06BC /* FlightData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DD8D542A8554F0006A06BC /* FlightData.swift */; };
 		91DD8D5D2A855B59006A06BC /* LAXArrival.json in Resources */ = {isa = PBXBuildFile; fileRef = 91DD8D582A855B59006A06BC /* LAXArrival.json */; };
@@ -74,10 +74,10 @@
 		9126EA292A8A31AC0093C2A2 /* JFKArrival.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = JFKArrival.json; path = Resources/Arrival/JFKArrival.json; sourceTree = SOURCE_ROOT; };
 		9126EA2F2A8A39400093C2A2 /* FlightDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDataView.swift; sourceTree = "<group>"; };
 		9126EA332A8A39590093C2A2 /* AllFlightsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFlightsInfoView.swift; sourceTree = "<group>"; };
-		9126EA372A8A39680093C2A2 /* TerminalsInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalsInfoView.swift; sourceTree = "<group>"; };
 		91B3B9E12A8A767C00DAAF2B /* MUCDeparture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MUCDeparture.json; sourceTree = "<group>"; };
 		91B3B9E22A8A767C00DAAF2B /* JFKDeparture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JFKDeparture.json; sourceTree = "<group>"; };
 		91B3B9E32A8A767C00DAAF2B /* LAXDeparture.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LAXDeparture.json; sourceTree = "<group>"; };
+		91B4CB7E2AA252AB005BA5B3 /* AirportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportView.swift; sourceTree = "<group>"; };
 		91DD8D4E2A850FB0006A06BC /* AirportData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportData.swift; sourceTree = "<group>"; };
 		91DD8D542A8554F0006A06BC /* FlightData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightData.swift; sourceTree = "<group>"; };
 		91DD8D582A855B59006A06BC /* LAXArrival.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = LAXArrival.json; path = Resources/Arrival/LAXArrival.json; sourceTree = SOURCE_ROOT; };
@@ -173,6 +173,7 @@
 		9126EA2D2A8A39210093C2A2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				91B4CB7D2AA25286005BA5B3 /* FlightOverview */,
 				9126EA2E2A8A392C0093C2A2 /* FlightInformation */,
 			);
 			path = Views;
@@ -183,7 +184,6 @@
 			children = (
 				9126EA2F2A8A39400093C2A2 /* FlightDataView.swift */,
 				9126EA332A8A39590093C2A2 /* AllFlightsInfoView.swift */,
-				9126EA372A8A39680093C2A2 /* TerminalsInfoView.swift */,
 			);
 			path = FlightInformation;
 			sourceTree = "<group>";
@@ -206,6 +206,14 @@
 				91B3B9E12A8A767C00DAAF2B /* MUCDeparture.json */,
 			);
 			path = Departure;
+			sourceTree = "<group>";
+		};
+		91B4CB7D2AA25286005BA5B3 /* FlightOverview */ = {
+			isa = PBXGroup;
+			children = (
+				91B4CB7E2AA252AB005BA5B3 /* AirportView.swift */,
+			);
+			path = FlightOverview;
 			sourceTree = "<group>";
 		};
 		91DD8D4D2A850FA3006A06BC /* Data */ = {
@@ -376,11 +384,11 @@
 			files = (
 				911A86542A84F40300AE051C /* Persistence.swift in Sources */,
 				9126EA302A8A39400093C2A2 /* FlightDataView.swift in Sources */,
+				91B4CB7F2AA252AB005BA5B3 /* AirportView.swift in Sources */,
 				91DD8D552A8554F0006A06BC /* FlightData.swift in Sources */,
 				911A864D2A84F40200AE051C /* ContentView.swift in Sources */,
 				9126EA342A8A39590093C2A2 /* AllFlightsInfoView.swift in Sources */,
 				91DD8D4F2A850FB0006A06BC /* AirportData.swift in Sources */,
-				9126EA382A8A39680093C2A2 /* TerminalsInfoView.swift in Sources */,
 				911A864B2A84F40200AE051C /* AirportDataApp.swift in Sources */,
 				911A86572A84F40300AE051C /* AirportData.xcdatamodeld in Sources */,
 			);

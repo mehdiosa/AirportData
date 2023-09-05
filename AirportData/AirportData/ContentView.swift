@@ -13,10 +13,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             TabView {
-                AllFlightsInfoView(airportData: airportData, type: .arrival).tabItem { Label(
+                AllFlightsInfoView(airportData: airportData, flightType: .arrival).tabItem { Label(
                     "Arrivals", systemImage: "airplane.arrival")
                 }
-                AllFlightsInfoView(airportData: airportData, type: .departure).tabItem { Label(
+                AllFlightsInfoView(airportData: airportData, flightType: .departure).tabItem { Label(
                     "Departures", systemImage: "airplane.departure")
                 }
             }

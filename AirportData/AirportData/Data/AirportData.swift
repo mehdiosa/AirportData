@@ -8,11 +8,11 @@
 import Foundation
 
 struct AirportData {
-    var arrivalFlightData: FlightData
-    var departureFlightData: FlightData
+    var arrivalFlightData: Flights = .init(flightInfo: [:], type: .arrival)
+    var departureFlightData: Flights = .init(flightInfo: [:], type: .departure)
     var isFetching: Bool
 
-    init(arrivalFlightData: FlightData = FlightData(data: []), departureFlightData: FlightData = FlightData(data: []), _ isFetching: Bool = true) {
+    init(arrivalFlightData: Flights = Flights(flightInfo: [:], type: .arrival), departureFlightData: Flights = Flights(flightInfo: [:], type: .departure), _ isFetching: Bool = true) {
         self.arrivalFlightData = arrivalFlightData
         self.departureFlightData = departureFlightData
         self.isFetching = isFetching
@@ -28,9 +28,9 @@ struct AirportData {
                     let filteredflightData = flightData.data.unique()
 
                     if flightType == .arrival {
-                        self.arrivalFlightData = FlightData(data: filteredflightData.sorted(by: { $0.arrival.scheduled! < $1.arrival.scheduled! }))
+                        self.arrivalFlightData.flightInfo = self.sortFlights(filteredflightData, type: .arrival)
                     } else {
-                        self.departureFlightData = FlightData(data: filteredflightData.sorted(by: { $0.departure.scheduled! < $1.departure.scheduled! }))
+                        self.departureFlightData.flightInfo = self.sortFlights(filteredflightData, type: .departure)
                     }
                 }
             }
@@ -38,6 +38,36 @@ struct AirportData {
         } catch {
             print(error)
         }
+    }
+
+    func sortFlights(_ flightData: [FlightOverview], type: FlightDataType) -> [String: [FlightOverview]] {
+        let flightsSortedByTime = self.sortFlightsByTime(flightData, type: type)
+        let flightsSortedByTimeAndTerminal = self.sortFlightsByTerminal(flightsSortedByTime, type: type)
+        return flightsSortedByTimeAndTerminal
+    }
+
+    func sortFlightsByTime(_ flightData: [FlightOverview], type: FlightDataType) -> [FlightOverview] {
+        if type == .arrival {
+            return flightData.sorted(by: { $0.arrival.scheduled! < $1.arrival.scheduled! })
+        } else if type == .departure {
+            return flightData.sorted(by: { $0.departure.scheduled! < $1.departure.scheduled! })
+        }
+        return []
+    }
+
+    func sortFlightsByTerminal(_ flightData: [FlightOverview], type: FlightDataType) -> [String: [FlightOverview]] {
+        var sortedFlights: [String: [FlightOverview]] = [:]
+
+        if type == .arrival {
+            sortedFlights = Dictionary(grouping: flightData, by: { $0.arrival.terminal ?? "" })
+        } else if type == .departure {
+            sortedFlights = Dictionary(grouping: flightData, by: { $0.departure.terminal ?? "" })
+        }
+
+        // Add all flights with empty string key -> This way data of all flights is added where only flights that do not have an terminal assigned yet would have been AND made sure that overview over all flights is ALWAYS the first page as empty string is sorted as first
+        sortedFlights[""] = flightData
+
+        return sortedFlights
     }
 }
 
