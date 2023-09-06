@@ -12,14 +12,7 @@ struct ContentView: View {
     @State var airportData = AirportData()
     var body: some View {
         VStack {
-            TabView {
-                AllFlightsInfoView(airportData: airportData, flightType: .arrival).tabItem { Label(
-                    "Arrivals", systemImage: "airplane.arrival")
-                }
-                AllFlightsInfoView(airportData: airportData, flightType: .departure).tabItem { Label(
-                    "Departures", systemImage: "airplane.departure")
-                }
-            }
+            AirportView(airportData: airportData)
         }.task {
             airportData.readData(forName: "MUC")
         }

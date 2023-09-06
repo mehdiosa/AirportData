@@ -248,7 +248,17 @@ final class AirportDataTests: XCTestCase {
         XCTAssertEqual(sortedMockFlightData, mockAiportArrivalDataSortedByDepartureTime)
     }
 
-    func test_airportData_checkIfFlightDataEntryForAllFlightsIsCreated_flightDataForAllFlightsShouldBeCreated() throws {}
+    func test_airportData_checkIfFlightDataEntryForAllFlightsIsCreated_flightDataForAllFlightsShouldBeCreated() throws {
+        var result = false
+        var airportData = AirportData()
+        airportData.readData(forName: "MUC")
+
+        if airportData.arrivalFlightData.flightInfo.keys.contains("") && airportData.departureFlightData.flightInfo.keys.contains("") {
+            result = true
+        }
+
+        XCTAssert(result)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
